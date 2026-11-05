@@ -1,0 +1,29 @@
+{
+  "org": "DirectDesk",
+  "tagline": "AI phone answering and website services for small businesses",
+  "mission": "10 clients at $199 a month",
+  "independence_pct": 47,
+  "step": "2 of 7",
+  "step_name": "Intake autostart",
+  "website": "directdesk.net",
+  "lines": [
+    {
+      "name": "Ra - the local AI crew",
+      "blurb": "A standing agent team on a local machine: it accepts typed instructions and writes its own programs.",
+      "status": "Independence 47% - Step 2 of 7",
+      "pct": 47
+    },
+    {
+      "name": "Duke - Android companion",
+      "blurb": "The phone companion app for the crew: talk to the team from anywhere.",
+      "status": "Version 12 delivered",
+      "pct": null
+    },
+    {
+      "name": "DirectDesk Tools",
+      "blurb": "The working tool fleet behind the answering and website services.",
+      "status": "Standing and in daily use",
+      "pct": null
+    }
+  ]
+}
