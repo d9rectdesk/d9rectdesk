@@ -1,0 +1,28 @@
+name: Update board
+
+on:
+  push:
+    paths:
+      - board_data.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  board:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Regenerate board.svg
+        run: python gen_board.py
+      - name: Commit the regenerated board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add board.svg
+          git diff --cached --quiet || git commit -m "Regenerate board from board_data.json"
+          git push
