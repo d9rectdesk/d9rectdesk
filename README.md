@@ -5,7 +5,7 @@
 [![Mission](https://img.shields.io/badge/Mission-10_Clients-76FF03)](#what-directdesk-is)
 [![Website](https://img.shields.io/badge/Website-directdesk.net-0097A7)](https://directdesk.net)
 [![Repositories](https://img.shields.io/badge/Repositories-168-102331)](#the-catalogue)
-[![Commits](https://img.shields.io/badge/Commits-607-0097A7)](#the-catalogue)
+[![Commits](https://img.shields.io/badge/Commits-8%2C823-0097A7)](#the-catalogue)
 
 [![Sponsors](https://img.shields.io/github/sponsors/directdesk-cmd?color=ea4aaa&logo=githubsponsors&label=Sponsors)](https://github.com/sponsors/directdesk-cmd)
 [![Goal Progress](https://img.shields.io/badge/Goal_Progress-Independence_47%25-76FF03)](#sponsor-directdesk)
@@ -15,7 +15,7 @@
 
 **By the numbers (measured November 2026):** 168 repositories under
 management - 520 working programs in the estate, 820 of them code -
-607 commits - every shipped file verified by read-back before
+8,823 commits - every shipped file verified by read-back before
 it counts as delivered. Most repositories stay private until their
 release day; this page is the public window.
 
