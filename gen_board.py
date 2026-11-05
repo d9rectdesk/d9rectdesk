@@ -21,7 +21,7 @@ def main():
     rows.append('<text x="%d" y="42" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="%s">%s</text>' % (pad, WHITE, escape(d["org"])))
     rows.append('<text x="%d" y="72" font-family="Arial, sans-serif" font-size="15" fill="#9FD8DE">%s</text>' % (pad, escape(d["tagline"])))
     rows.append('<rect x="%d" y="26" width="252" height="44" rx="8" fill="%s"/>' % (W - pad - 252, GREEN))
-    rows.append('<text x="%d" y="54" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="%s" text-anchor="middle">Mission: %s</text>' % (W - pad - 126, NAVY, escape(d["mission"])))
+    rows.append('<text x="%d" y="54" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="%s" text-anchor="middle">Goal: %s</text>' % (W - pad - 126, NAVY, escape(d["goal"])))
     y = 96
     rows.append('<rect y="%d" width="%d" height="86" fill="%s"/>' % (y, W, BG))
     rows.append('<text x="%d" y="%d" font-family="Arial, sans-serif" font-size="13" fill="%s">INDEPENDENCE</text>' % (pad, y + 26, MUTED))
