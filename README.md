@@ -264,7 +264,7 @@ keeps going.
   work, hands it to the right person, and checks every result himself
   before it counts. If something breaks, it is his until it is fixed -
   he does not hand a problem back.
-- **Sarah - Lead Programmer.** She writes the final code the team
+- **Sarah - Programmer.** She writes the final code the team
   ships, and she signs it - literally: her cryptographic signature
   rides on her work, so anything she has sealed can be proven hers and
   untouched. She does not sign anything she has not verified herself.
@@ -277,7 +277,7 @@ keeps going.
   falls before anyone notices. He also keeps the blueprint the entire
   estate can be rebuilt from - the team's insurance policy is in his
   hands.
-- **Maya - Receptionist and Clerical Keeper.** The voice customers
+- **Maya - Receptionist.** The voice customers
   hear when they call DirectDesk, and the one who keeps the records
   straight. She remembers every caller, takes every message word for
   word, and makes sure nothing a caller said is ever lost.
