@@ -2,7 +2,7 @@
 
 [![Independence](https://img.shields.io/badge/Independence-47%25-0097A7)](#ra---the-crew-system)
 [![Current Step](https://img.shields.io/badge/Current_Step-2_of_7-102331)](#ra---the-crew-system)
-[![Mission](https://img.shields.io/badge/Mission-10_Clients-76FF03)](#what-directdesk-is)
+[![Goal](https://img.shields.io/badge/Goal-10_Clients_at_%24299-76FF03)](#what-directdesk-is)
 [![Website](https://img.shields.io/badge/Website-directdesk.net-0097A7)](https://directdesk.net)
 [![Repositories](https://img.shields.io/badge/Repositories-168-102331)](#the-catalogue)
 [![Commits](https://img.shields.io/badge/Commits-8%2C823-0097A7)](#the-catalogue)
@@ -23,8 +23,8 @@ release day; this page is the public window.
 
 DirectDesk answers the phone for small businesses: 24/7 AI phone answering,
 overflow answering, website management, and a 24/7 AI website chat agent -
-every call answered and the job booked, for $199 a month. The mission is
-ten clients at $199 a month.
+every call answered and the job booked, for $299 a month. The goal is
+ten clients at $299 a month.
 
 Everything below is built and run by DirectDesk: the customer-facing
 products, the AI crew system that builds them, and the tool fleet both
