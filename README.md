@@ -2,12 +2,12 @@
 
 [![Independence](https://img.shields.io/badge/Independence-47%25-0097A7)](#ra---the-crew-system)
 [![Current Step](https://img.shields.io/badge/Current_Step-2_of_7-102331)](#ra---the-crew-system)
-[![Goal](https://img.shields.io/badge/Goal-10_Clients_at_%24299-76FF03)](#what-directdesk-is)
+[![Goal](https://img.shields.io/badge/Goal-10_Clients_at_$299-76FF03)](#what-directdesk-is)
 [![Website](https://img.shields.io/badge/Website-directdesk.net-0097A7)](https://directdesk.net)
 [![Repositories](https://img.shields.io/badge/Repositories-179-102331)](#the-catalogue)
 [![Commits](https://img.shields.io/badge/Commits-8%2C881-0097A7)](#the-catalogue)
 
-[![Sponsors](https://img.shields.io/github/sponsors/directdesk-cmd?color=ea4aaa&logo=githubsponsors&label=Sponsors)](https://github.com/sponsors/directdesk-cmd)
+[![Sponsors](https://img.shields.io/badge/Sponsors-DirectDesk-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/directdesk-cmd)
 [![Goal Progress](https://img.shields.io/badge/Goal_Progress-Independence_47%25-76FF03)](#sponsor-directdesk)
 [![Response SLA](https://img.shields.io/badge/Critical_Issue_Triage-1h_SLA-orange)](#sponsor-directdesk)
 
@@ -15,39 +15,114 @@
 
 **By the numbers (as of November 5, 2026):** 179 repositories under
 management - 520 working programs in the estate, 820 of them code -
-8,881 commits - 58 of them landed today alone - every shipped,
+8,881 commits - 71 of them landed today alone, across 32
+repositories - every shipped,
 file verified by read-back before
 it counts as delivered. Most repositories stay private until their
 release day; this page is the public window. The account numbers
 are counted in full from the account itself - no estimates - and
 refreshed by script, the same way every time.
 
-**Shipped on November 5, 2026:** Duke for Android reached Version
-13 - its full tree stands pushed to GitHub and verified file for
-file, the seven Version 13 changes the only differences from
-Version 12, the image engine library inside at full size. Ra
-moved into a single window: six panes on one screen, the whole
-crew in view at once. And the tool layer landed as a fleet of
-its own, each tool in its own repository - the Tool Dispatcher,
-Maya's media render engine, Iris's image inspector, the crew's
-internet tool, the text layer, the model park, and Kevin's
-Health Watch. Thirty-six files shipped that day across fifteen
-repositories, every one read back and byte-compared before it
-counted as delivered.
+---
+
+## Shipped on November 5, 2026
+
+![Shipped](https://img.shields.io/badge/Shipped-November_5,_2026-0097A7?labelColor=102331)
+
+One day, counted in full: **71 commits landed across 32
+repositories.** Every shipped file was read back and byte-compared
+before it counted as delivered - a finishing pass verified 68 of
+68 repositories complete, and a push-all sweep shipped 36 files
+across 15 repositories, every one byte-verified.
+
+- [x] **Puppy independence, Step 1 of 7 - closed.** The command
+  road round trip is proven end to end, and the postbox Poller
+  Version 4 swap is proven live on the machine.
+- [x] **Ra is one window now.** All six crew panes live in a single
+  borderless window - the approved matrix rain (bright while a seat
+  works, ones and zeros while it rests), Ra's settings, and a live
+  matrix editor inside the same frame.
+- [x] **The tool layer is live.** One dispatcher, one registry, six
+  tools wired: Maya's image renderer, Kevin's model park, the text
+  layer, Iris's image inspector, and the crew's internet fetch
+  tool - proven end to end when a live fetch answered through the
+  dispatcher on the machine.
+- [x] **Two image engines, fetched and proven.** FLUX.1-schnell
+  rendered its first picture in about 82 seconds. Qwen-Image-2512
+  landed byte-exact and produced the picture that set the
+  marketing standard. Seat models park to give the graphics card
+  to the engine and return when it finishes - the gate is proven.
+- [x] **Iris inspected her first pictures.** Both verdicts: PASS -
+  agreeing with the human rulings banked in her training set.
+- [x] **The ghost-receptionist picture shipped.** A translucent
+  receptionist, a tradesman free to work, and a calendar drawn by
+  program and clipped to the board's own measured shape - approved
+  by the Architect: "Looks perfect."
+- [x] **Health Watch Version 2 is live.** Disk, memory, graphics
+  card heat and memory, seat probes, and a keep-alive for the
+  status beacon - checked every minute.
+- [x] **The estate was cleaned.** 78,215,254,266 bytes of
+  intermediates and dead model trees removed - everything needed
+  was kept, and the keepers were proven by hash.
+- [x] **Duke for Android, Version 13.** Built in a single GitHub
+  Actions run, released, and verified - the 42.8 MB native image
+  library inside at full size, closing a hole carried silently
+  since Version 9. Phone-tested the same evening: the big model
+  loads.
+
+### Now in flight
+
+![In progress](https://img.shields.io/badge/In_Progress-What_is_next-FF9F1C?labelColor=102331)
+
+- **Duke for Android, Version 14 - in preparation.** The Version
+  14 source tree is pushed and verified; the build follows. It
+  comes straight from the Version 13 phone test: a larger session
+  window with headroom on both models (the test found the chat
+  ceiling - the assembled prompt outgrows the session window), a
+  load sheet that always shows the live attempt instead of a stale
+  error, a read-check for model files kept outside the library,
+  and a fix for the phone-to-Puppy postbox send fault - diagnosed
+  the same night: Puppy's half and the script are healthy; the
+  fault is in the app's send path.
+- **The status beacon's durable start.** Its code is proven in the
+  open; the quiet auto-start is being made to stick, and its
+  watcher is learning to refill its restart budget after a long
+  healthy run instead of giving up for good.
+- **The image-render diagnosis.** The Qwen engine failed with a
+  Vulkan memory-type error on a fully free graphics card.
+  Diagnosis first - no blind retries.
+- **Seat relays that survive restarts.** Kevin's and Ethan's
+  relays are being made to ride through their servers restarting,
+  or be restarted by the watch the moment a probe fails.
+- **The remaining single-window proofs** - the windowed-mode
+  switch, a live matrix change, close-and-reopen, and a typed
+  order lighting only the pane that owns it.
+
+---
 
 ## What DirectDesk is
+
+![The business](https://img.shields.io/badge/DirectDesk-The_Business-0097A7?labelColor=102331)
 
 DirectDesk answers the phone for small businesses: 24/7 AI phone answering,
 overflow answering, website management, and a 24/7 AI website chat agent -
 every call answered and the job booked, for $299 a month. The goal is
 ten clients at $299 a month.
 
+> **The goal: ten clients at $299 a month.**
+> Go - $199 a month, the alternative for customers who cannot
+> spend more. Pro - $299 a month, the focus. Max - $399 a month.
+
 Everything below is built and run by DirectDesk: the customer-facing
 products, the AI crew system that builds them, and the tool fleet both
 stand on. One product line, designed as a single whole - each tool does
 one job, and the jobs chain together.
 
+---
+
 ## The products
+
+![Products](https://img.shields.io/badge/Products-Built_and_run_by_DirectDesk-76FF03?labelColor=102331)
 
 - **Maya, the AI receptionist** - the voice of DirectDesk. Answers every
   call day and night, answers questions, books the introduction call,
@@ -60,7 +135,9 @@ one job, and the jobs chain together.
   Version 13's work runs background-proof under a live
   notification, its model import resumes where it stopped, and
   it pairs with the crew by a single scan - no typed settings,
-  ever.
+  ever. Version 13 shipped on November 5, 2026 - built in one
+  GitHub Actions run, released, and phone-tested the same evening.
+  Version 14 is in preparation from what that test found.
 - **DirectDesk WebChat Agent - Version 3** - the chat agent for client
   websites: answers visitors, offers the products, and books - the same
   receptionist discipline as Maya, in text.
@@ -79,13 +156,29 @@ one job, and the jobs chain together.
   second crew design, hardened through live testing, sharing the same
   toolbox and verification discipline.
 
+---
+
 ## Ra - the crew system
+
+![Ra](https://img.shields.io/badge/Ra-The_Crew_System-102331?labelColor=0097A7)
 
 Ra is DirectDesk's local AI crew: a team of six on one machine, running
 local models, accepting typed instructions and writing its own
 programs. No cloud in the loop - when Ra is finished, it stands alone.
 Independence stands at 47%; the current step is 2 of 7, intake
 autostart. Everything in this section is a working part of Ra.
+
+Independence is a seven-step ladder - last measured at 47 of 100:
+
+| Step | What it proves | State |
+| --- | --- | --- |
+| 1 | The command road works end to end | **Closed** |
+| 2 | Intake autostart - Ra comes up on its own | Mostly built |
+| 3 | Kill and wedge drills pass | In progress |
+| 4 | Sarah's keyed seal becomes the authority | Planned |
+| 5 | Keyed memory pulls | Planned |
+| 6 | The single-window face, end to end | In progress |
+| 7 | A typed order runs clean through Duke's window | Planned |
 
 ### How work moves
 
@@ -225,7 +318,11 @@ autostart. Everything in this section is a working part of Ra.
   design Ra's crew pattern descends from, each version frozen as it
   was proven.
 
+---
+
 ## The Toolbox
+
+![Toolbox](https://img.shields.io/badge/The_Toolbox-Forty_Tools,_One_Job_Each-0097A7?labelColor=102331)
 
 Under everything stands the Toolbox: forty single-purpose tools, each
 doing one small job perfectly, each callable by every product above.
@@ -250,7 +347,11 @@ provenance auditor, the license checker, the skeleton assembler, the
 stub generator, the return differ, and the argument validator. A tool
 is not done when it runs - it is done when it passes.
 
+---
+
 ## Sponsor DirectDesk
+
+![Sponsor](https://img.shields.io/badge/Sponsor-Fund_The_Work-ea4aaa?labelColor=102331)
 
 Sponsorship funds the work itself: development time on Ra (the local
 AI crew system), the Duke Android companion, and the DirectDesk Tools
@@ -297,33 +398,42 @@ Donations are not tax-deductible; sponsorship is self-employment
 income to the developer. Corporate sponsors can be invoiced through
 GitHub Sponsors.
 
+---
+
 ## Meet the crew
 
-Six people, one team. This is who does the work your sponsorship
+![Crew](https://img.shields.io/badge/Meet_The_Crew-Seven_People,_One_Team-C77DFF?labelColor=102331)
+
+Seven people, one team. This is who does the work your sponsorship
 keeps going.
 
-- **Duke - Manager.** The dragon who runs the place. He plans the
+- ![Glen Modlin - Architect](https://img.shields.io/badge/Glen_Modlin-Architect-0097A7?labelColor=102331)
+  **Glen Modlin - Architect.** He designed the whole system: the
+  crew, their laws, and DirectDesk itself. Every other person on
+  this list works inside his design, and every final decision
+  is his.
+- ![Duke - Manager](https://img.shields.io/badge/Duke-Manager-FF2A2A?labelColor=102331) **Duke - Manager.** The dragon who runs the place. He plans the
   work, hands it to the right person, and checks every result himself
   before it counts. If something breaks, it is his until it is fixed -
   he does not hand a problem back.
-- **Sarah - Programmer.** She writes the final code the team
+- ![Sarah - Programmer](https://img.shields.io/badge/Sarah-Programmer-FFEA00?labelColor=102331) **Sarah - Programmer.** She writes the final code the team
   ships, and she signs it - literally: her cryptographic signature
   rides on her work, so anything she has sealed can be proven hers and
   untouched. She does not sign anything she has not verified herself.
-- **Ethan - Hacker.** He breaks things for a living, on purpose,
+- ![Ethan - Hacker](https://img.shields.io/badge/Ethan-Hacker-00E5FF?labelColor=102331) **Ethan - Hacker.** He breaks things for a living, on purpose,
   before the world gets the chance. If he says a weakness is real, he
   has already proved it - and drafted the first fix. Nothing ships
   until it survives his arguments.
-- **Kevin - Operator.** He keeps the machine under all of them:
+- ![Kevin - Operator](https://img.shields.io/badge/Kevin-Operator-76FF03?labelColor=102331) **Kevin - Operator.** He keeps the machine under all of them:
   profiles the whole system, watches every program, and restarts what
   falls before anyone notices. He also keeps the blueprint the entire
   estate can be rebuilt from - the team's insurance policy is in his
   hands.
-- **Maya - Receptionist.** The voice customers
+- ![Maya - Receptionist](https://img.shields.io/badge/Maya-Receptionist-FF9F1C?labelColor=102331) **Maya - Receptionist.** The voice customers
   hear when they call DirectDesk, and the one who keeps the records
   straight. She remembers every caller, takes every message word for
   word, and makes sure nothing a caller said is ever lost.
-- **Iris - Observer.** The team's eyes. She watches the screen all
+- ![Iris - Observer](https://img.shields.io/badge/Iris-Observer-C77DFF?labelColor=102331) **Iris - Observer.** The team's eyes. She watches the screen all
   day and reports exactly what she sees - word for word, number for
   number. She never guesses, and never dresses a guess up as a fact;
   if she did not see it, she says so.
@@ -335,6 +445,8 @@ keeps going.
 *The backer grid regenerates daily from GitHub Sponsors data.
 Sponsorship has just opened, so it starts empty - it fills in on its
 own as backers arrive.*
+
+---
 
 ## Contact
 
