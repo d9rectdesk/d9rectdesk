@@ -9,19 +9,19 @@
     {
       "name": "Ra - the local AI crew",
       "blurb": "A standing agent team on a local machine: it accepts typed instructions and writes its own programs.",
-      "status": "Independence 47% - Step 2 of 7",
+      "status": "Independence 47% - Step 1 closed, Step 2 of 7",
       "pct": 47
     },
     {
       "name": "Duke - Android companion",
       "blurb": "The phone companion app for the crew: talk to the team from anywhere.",
-      "status": "Version 13 pushed and verified",
+      "status": "Version 13 released - Version 14 in preparation",
       "pct": null
     },
     {
       "name": "DirectDesk Tools",
       "blurb": "The working tool fleet behind the answering and website services.",
-      "status": "Standing and in daily use",
+      "status": "Tool layer live - six tools wired",
       "pct": null
     }
   ],
