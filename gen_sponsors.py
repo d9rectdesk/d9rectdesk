@@ -121,6 +121,7 @@ def render(groups, total):
     rows.append('<text x="%d" y="46" font-family="Arial, sans-serif" '
                 'font-size="26" font-weight="bold" fill="%s">DirectDesk Backers</text>'
                 % (pad, WHITE))
+    rows.append('<rect y="66" width="%d" height="6" fill="%s"/>' % (W, GREEN))
     if total:
         rows.append('<text x="%d" y="46" font-family="Arial, sans-serif" '
                     'font-size="16" fill="#9FD8DE" text-anchor="end">%d sponsor%s</text>'
@@ -131,7 +132,9 @@ def render(groups, total):
         rows.append('<text x="%d" y="%d" font-family="Arial, sans-serif" '
                     'font-size="19" font-weight="bold" fill="%s" '
                     'text-anchor="middle">Sponsorship is open</text>'
-                    % (W // 2, y + 56, NAVY))
+                    % (W // 2, y + 56, TEAL))
+        rows.append('<rect x="%d" y="%d" width="120" height="4" fill="%s"/>'
+                    % (W // 2 - 60, y + 66, GREEN))
         rows.append('<text x="%d" y="%d" font-family="Arial, sans-serif" '
                     'font-size="14" fill="%s" text-anchor="middle">Be the first to back '
                     'DirectDesk - this grid fills in on its own as backers arrive.</text>'
