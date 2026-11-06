@@ -4,8 +4,8 @@
 [![Current Step](https://img.shields.io/badge/Current_Step-2_of_7-102331)](#ra---the-crew-system)
 [![Goal](https://img.shields.io/badge/Goal-10_Clients_at_%24299-76FF03)](#what-directdesk-is)
 [![Website](https://img.shields.io/badge/Website-directdesk.net-0097A7)](https://directdesk.net)
-[![Repositories](https://img.shields.io/badge/Repositories-168-102331)](#the-catalogue)
-[![Commits](https://img.shields.io/badge/Commits-8%2C823-0097A7)](#the-catalogue)
+[![Repositories](https://img.shields.io/badge/Repositories-179-102331)](#the-catalogue)
+[![Commits](https://img.shields.io/badge/Commits-8%2C881-0097A7)](#the-catalogue)
 
 [![Sponsors](https://img.shields.io/github/sponsors/directdesk-cmd?color=ea4aaa&logo=githubsponsors&label=Sponsors)](https://github.com/sponsors/directdesk-cmd)
 [![Goal Progress](https://img.shields.io/badge/Goal_Progress-Independence_47%25-76FF03)](#sponsor-directdesk)
@@ -13,11 +13,27 @@
 
 ![DirectDesk at a glance](board.svg)
 
-**By the numbers (measured November 2026):** 168 repositories under
+**By the numbers (as of November 5, 2026):** 179 repositories under
 management - 520 working programs in the estate, 820 of them code -
-8,823 commits - every shipped file verified by read-back before
+8,881 commits - 58 of them landed today alone - every shipped,
+file verified by read-back before
 it counts as delivered. Most repositories stay private until their
-release day; this page is the public window.
+release day; this page is the public window. The account numbers
+are counted in full from the account itself - no estimates - and
+refreshed by script, the same way every time.
+
+**Shipped on November 5, 2026:** Duke for Android reached Version
+13 - its full tree stands pushed to GitHub and verified file for
+file, the seven Version 13 changes the only differences from
+Version 12, the image engine library inside at full size. Ra
+moved into a single window: six panes on one screen, the whole
+crew in view at once. And the tool layer landed as a fleet of
+its own, each tool in its own repository - the Tool Dispatcher,
+Maya's media render engine, Iris's image inspector, the crew's
+internet tool, the text layer, the model park, and Kevin's
+Health Watch. Thirty-six files shipped that day across fifteen
+repositories, every one read back and byte-compared before it
+counted as delivered.
 
 ## What DirectDesk is
 
@@ -38,9 +54,13 @@ one job, and the jobs chain together.
   takes messages word for word, notifies the owner the moment a message
   lands, and connects callers who need the owner live. Current build:
   Version 12.
-- **Duke for Android - Version 12** - the crew in your pocket. A phone
+- **Duke for Android - Version 13** - the crew in your pocket: the Puppy Commander. A phone
   companion that runs its own model on the device, works mostly offline,
   and hands heavy work to the crew at home when it is in reach.
+  Version 13's work runs background-proof under a live
+  notification, its model import resumes where it stopped, and
+  it pairs with the crew by a single scan - no typed settings,
+  ever.
 - **DirectDesk WebChat Agent - Version 3** - the chat agent for client
   websites: answers visitors, offers the products, and books - the same
   receptionist discipline as Maya, in text.
@@ -69,7 +89,7 @@ autostart. Everything in this section is a working part of Ra.
 
 ### How work moves
 
-- **Order Intake - Version 11** - reads each typed instruction, breaks
+- **Order Intake - Version 13** - reads each typed instruction, breaks
   it into jobs, and files them with a time estimate on every one.
 - **Queue Manager - Version 3** - the bookkeeper: every job recorded,
   claimed, and closed in the book, nothing run twice, nothing lost.
@@ -78,6 +98,13 @@ autostart. Everything in this section is a working part of Ra.
   it, and bring the result back.
 - **Queue Bridge Keeper - Version 3** - keeps the lanes between the
   queue's homes open and moving.
+- **Tool Dispatcher - Version 6** - every tool call the crew makes
+  goes through one door: the dispatcher looks the tool up in the
+  registry, runs it, and writes a receipt for every call, so no
+  tool's work is ever taken on trust.
+- **Model Park - Version 3** - a seat's model is parked the moment
+  it has no task and brought back the moment work arrives, so
+  the graphics card always belongs to whoever is working.
 - **Command Server - Version 1** - the crew's front door: takes
   commands from the phone and the owner, in order, with receipts.
 - **Postbox Poller - Version 4** - the mail runner between the crew and
@@ -98,9 +125,11 @@ autostart. Everything in this section is a working part of Ra.
 - **Crew Personas - Version 1** - the six of them, written down: who
   each one is, what their job is, and how they work - loaded fresh for
   every task, so each of them comes to work as themselves.
-- **Persona Window - Version 7** - each team member's own window on
-  the screen: their own color, their own voice, their live work
-  visible at a glance.
+- **Persona Windows - Version 8** - the crew's one window: all six
+  panes in a single frame on
+  one screen, each pane in its own color, its live work and the
+  matrix rain that shows when its owner is thinking visible at a
+  glance.
 - **Local Duke Window - Version 2** - the owner's chair: type an
   instruction, talk to one crew member or the whole crew.
 - **Conversation Organizer - Version 6** and **Conversation Stitcher -
@@ -113,16 +142,20 @@ autostart. Everything in this section is a working part of Ra.
 
 ### How Ra stays alive
 
-- **Open Ra - Version 8** - one command brings the whole crew up, face
-  first: every window on screen, every seat answering, proven by a
+- **Open Ra - Version 13** - one command brings the whole crew up, face
+  first: all six panes in one window on one screen, every seat
+  answering, proven by a
   census, not assumed.
-- **Close Ra - Version 1** and **Start / Stop Estate - Version 2** -
+- **Close Ra - Version 5** and **Start / Stop Estate - Version 2** -
   the same discipline in reverse: down means down, on the record.
 - **Watchdog Supervisor - Version 2** and **Standing Loop Watch -
-  Version 11** - every resident program is watched from outside
+  Version 14** - every resident program is watched from outside
   itself; what falls is restarted, what wedges is cut out.
 - **Start What's Missing - Version 6** - the minute sweep: finds
   anything that should be running and is not, and starts it.
+- **Health Watch - Version 2** - Kevin's standing watch over the
+  machine itself: disk, memory, heat, and the crew's heartbeat,
+  checked every minute, with the authority to revive what falls.
 - **Queue Guardian - Version 4** - watches the queue itself: a stalled
   lane is a failure to fix, never a state to accept.
 - **Tunnel Guardian - Version 1** and **Tunnel Verdict Beacon -
@@ -140,15 +173,24 @@ autostart. Everything in this section is a working part of Ra.
 
 - **Screen Watch - Version 4** - the crew's eyes on its own machine:
   watches the screen, names what changed, raises what matters.
+- **Iris Image Inspect - Version 2** - every picture the crew makes
+  is inspected the moment it lands, against the checklist, before
+  anyone calls it good.
+- **Maya Media Render - Version 5** - Maya's render engine: the
+  marketing pictures and media, made to order on the local
+  machine.
+- **Text Layer - Version 2** - words are drawn by program, never
+  guessed by the picture model: calendars and captions laid over
+  the art exactly as written.
 - **Order Image Gen - Version 1** and **Video Gen - Version 4** - the
   crew's art department: images and video made to order, on the local
   machine.
 - **Kokoro Render - Version 1**, **Duke Voice - Version 1**, and
   **Voice Player - Version 2** - the voice chain: text rendered in each
   crew member's own voice, and spoken on the machine in arrival order.
-- **Web Search - Version 1** and **Web Fetch - Version 1** - the crew's
-  library card: a role states what it needs to know, the tools go and
-  get it, and what comes back is sourced before it is believed.
+- **Fetch Knowledge - Version 2** - the crew's
+  library card: a role states what it needs to know, the tool goes
+  and gets it, and what comes back is sourced before it is believed.
 - **PC Operator - Version 2** - the crew's hands on its own computer:
   opens, closes, adjusts, and operates - under orders, with receipts.
 - **Model Call - Version 1** and **Model Workshop - Version 2** - how
@@ -302,5 +344,7 @@ own as backers arrive.*
 
 *This is the public board: basic information only. The panel above
 regenerates automatically from `board_data.json` whenever the numbers
-change, and the backer grid regenerates daily. Counts on this page are
-measured from the estate's own records, November 2026.*
+change, and the backer grid regenerates daily. Every number on
+this page is counted in full - the account numbers from the
+account itself, refreshed by script the same way every time - no
+estimates. November 2026.*
