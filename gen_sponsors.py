@@ -131,12 +131,12 @@ def render(groups, total):
         rows.append('<rect y="%d" width="%d" height="128" fill="%s"/>' % (y, W, BG))
         rows.append('<text x="%d" y="%d" font-family="Arial, sans-serif" '
                     'font-size="19" font-weight="bold" fill="%s" '
-                    'text-anchor="middle">Sponsorship is open</text>'
+                    'text-anchor="middle">Sponsorship is in approval</text>'
                     % (W // 2, y + 56, TEAL))
         rows.append('<rect x="%d" y="%d" width="120" height="4" fill="%s"/>'
                     % (W // 2 - 60, y + 66, GREEN))
         rows.append('<text x="%d" y="%d" font-family="Arial, sans-serif" '
-                    'font-size="14" fill="%s" text-anchor="middle">Be the first to back '
+                    'font-size="14" fill="%s" text-anchor="middle">The sponsor profile is with GitHub for approval - '
                     'DirectDesk - this grid fills in on its own as backers arrive.</text>'
                     % (W // 2, y + 84, MUTED))
         y += 128
