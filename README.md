@@ -359,6 +359,11 @@ fleet - plus the CI runners and test hardware that keep every release
 verified before it ships. Not a tip jar: every tier below buys a
 tangible outcome.
 
+> **Status, November 5, 2026:** the GitHub Sponsors profile is
+> submitted and in GitHub's approval queue. Sponsorship opens the
+> moment it is approved - the tiers are set, the funding file is
+> in place, and everything on this page is ready for that day.
+
 [![Become a sponsor](https://img.shields.io/badge/Sponsor_on_GitHub-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/directdesk-cmd)
 
 ### Tiers
@@ -443,8 +448,9 @@ keeps going.
 ![DirectDesk backers](sponsors.svg)
 
 *The backer grid regenerates daily from GitHub Sponsors data.
-Sponsorship has just opened, so it starts empty - it fills in on its
-own as backers arrive.*
+The sponsor profile is in GitHub's approval queue, so the grid
+starts empty - it fills in on its own as backers arrive once the
+profile goes live.*
 
 ---
 
