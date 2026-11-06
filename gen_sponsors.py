@@ -137,7 +137,7 @@ def render(groups, total):
                     % (W // 2 - 60, y + 66, GREEN))
         rows.append('<text x="%d" y="%d" font-family="Arial, sans-serif" '
                     'font-size="14" fill="%s" text-anchor="middle">The sponsor profile is with GitHub for approval - '
-                    'DirectDesk - this grid fills in on its own as backers arrive.</text>'
+                    'this grid fills in on its own as backers arrive.</text>'
                     % (W // 2, y + 84, MUTED))
         y += 128
     size = 56; gap = 14; per = (W - 2 * pad + gap) // (size + gap)
