@@ -2,10 +2,10 @@
 
 [![Independence](https://img.shields.io/badge/Independence-47%25-0097A7)](#ra---the-crew-system)
 [![Current Step](https://img.shields.io/badge/Current_Step-2_of_7-102331)](#ra---the-crew-system)
-[![Goal](https://img.shields.io/badge/Goal-10_Clients_at_$299-76FF03)](#what-directdesk-is)
+[![Goal](https://img.shields.io/badge/Goal-10_Clients_at_299-76FF03)](#what-directdesk-is)
 [![Website](https://img.shields.io/badge/Website-directdesk.net-0097A7)](https://directdesk.net)
 [![Repositories](https://img.shields.io/badge/Repositories-179-102331)](#the-catalogue)
-[![Commits](https://img.shields.io/badge/Commits-8%2C881-0097A7)](#the-catalogue)
+[![Commits](https://img.shields.io/badge/Commits-8%2C894-0097A7)](#the-catalogue)
 
 [![Sponsors](https://img.shields.io/badge/Sponsors-DirectDesk-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/directdesk-cmd)
 [![Goal Progress](https://img.shields.io/badge/Goal_Progress-Independence_47%25-76FF03)](#sponsor-directdesk)
@@ -13,9 +13,10 @@
 
 ![DirectDesk at a glance](board.svg)
 
-**By the numbers (as of November 5, 2026):** 179 repositories under
+**By the numbers (as of November 5, 2026, counted in full at
+9:35 PM EST):** 179 repositories under
 management - 520 working programs in the estate, 820 of them code -
-8,881 commits - 71 of them landed today alone, across 32
+8,894 commits - 71 of them landed today alone, across 22
 repositories - every shipped,
 file verified by read-back before
 it counts as delivered. Most repositories stay private until their
@@ -29,7 +30,7 @@ refreshed by script, the same way every time.
 
 ![Shipped](https://img.shields.io/badge/Shipped-November_5,_2026-0097A7?labelColor=102331)
 
-One day, counted in full: **71 commits landed across 32
+One day, counted in full: **71 commits landed across 22
 repositories.** Every shipped file was read back and byte-compared
 before it counted as delivered - a finishing pass verified 68 of
 68 repositories complete, and a push-all sweep shipped 36 files
@@ -346,6 +347,27 @@ before it ships: the contract board, the spec, the seam checker, the
 provenance auditor, the license checker, the skeleton assembler, the
 stub generator, the return differ, and the argument validator. A tool
 is not done when it runs - it is done when it passes.
+
+---
+
+## The goal, and where it stands
+
+![The goal](https://img.shields.io/badge/The_Goal-Ten_Clients,_2990_A_Month-76FF03?labelColor=102331)
+
+**The goal: ten DirectDesk clients at $299 a month - $2,990 a
+month.** That is the milestone this whole estate is aimed at -
+the point where DirectDesk stands on its own, carried by the
+customers it serves.
+
+**Where it stands, November 5, 2026:** the answering service is
+built and live - Maya (the Retell receptionist) answers, books
+introduction calls, and takes messages around the clock. The
+website is live at directdesk.net. The push for the first ten
+clients is built and moving: 2,260 local businesses are gathered
+into the prospect list, and every send and draft is counted and
+verified against the mailbox. The GitHub Sponsors profile is
+submitted and in GitHub's approval queue, and the sponsors goal
+will be set to $2,990 a month - this same number.
 
 ---
 
