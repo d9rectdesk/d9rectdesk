@@ -2,7 +2,7 @@
 
 [![Independence](https://img.shields.io/badge/Independence-47%25-0097A7)](#ra---the-crew-system)
 [![Current Step](https://img.shields.io/badge/Current_Step-2_of_7-102331)](#ra---the-crew-system)
-[![Goal](https://img.shields.io/badge/Goal-10_Clients_at_299-76FF03)](#what-directdesk-is)
+[![Goal](https://img.shields.io/badge/Goal-10_Clients_At_299_A_Month-76FF03)](#what-directdesk-is)
 [![Website](https://img.shields.io/badge/Website-directdesk.net-0097A7)](https://directdesk.net)
 [![Repositories](https://img.shields.io/badge/Repositories-179-102331)](#the-catalogue)
 [![Commits](https://img.shields.io/badge/Commits-8%2C894-0097A7)](#the-catalogue)
