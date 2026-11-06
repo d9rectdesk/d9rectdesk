@@ -363,9 +363,8 @@ customers it serves.
 built and live - Maya (the Retell receptionist) answers, books
 introduction calls, and takes messages around the clock. The
 website is live at directdesk.net. The push for the first ten
-clients is built and moving: 2,260 local businesses are gathered
-into the prospect list, and every send and draft is counted and
-verified against the mailbox. The GitHub Sponsors profile is
+clients is built and moving: outreach to local businesses is
+under way, and every send is counted and verified. The GitHub Sponsors profile is
 submitted and in GitHub's approval queue, and the sponsors goal
 will be set to $2,990 a month - this same number.
 
