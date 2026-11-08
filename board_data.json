@@ -1,29 +1,54 @@
 {
   "org": "DirectDesk",
   "tagline": "AI phone answering and website services for small businesses",
-  "independence_pct": 40,
+  "independence_pct": 47,
   "step": "Independence List",
-  "step_name": "40 of 100 closed",
+  "step_name": "As of November 8, 2026",
   "website": "directdesk.net",
   "lines": [
     {
       "name": "Ra - the local AI crew",
-      "blurb": "A standing agent team on a local machine: it accepts typed instructions and writes its own programs.",
-      "status": "Independence 40% - 40 of 100 items closed",
-      "pct": 40
+      "blurb": "A standing team of AI agents on one local machine, writing its own programs.",
+      "status": "Live and running",
+      "pct": null
     },
     {
       "name": "Duke - Android companion",
-      "blurb": "The phone companion app for the crew: talk to the team from anywhere.",
-      "status": "Version 14 released",
+      "blurb": "The crew's phone companion: talk to the team from anywhere.",
+      "status": "Released and verified",
       "pct": null
     },
     {
       "name": "DirectDesk Tools",
       "blurb": "The working tool fleet behind the answering and website services.",
-      "status": "Tool layer live - six tools wired",
+      "status": "Tool layer live",
       "pct": null
     }
   ],
-  "goal": "10 clients at $299 a month"
+  "crew": [
+    {
+      "name": "Duke",
+      "color": "#FF2A2A"
+    },
+    {
+      "name": "Sarah",
+      "color": "#FFEA00"
+    },
+    {
+      "name": "Ethan",
+      "color": "#00E5FF"
+    },
+    {
+      "name": "Kevin",
+      "color": "#76FF03"
+    },
+    {
+      "name": "Maya",
+      "color": "#FF9F1C"
+    },
+    {
+      "name": "Iris",
+      "color": "#C77DFF"
+    }
+  ]
 }
