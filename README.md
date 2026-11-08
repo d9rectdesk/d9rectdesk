@@ -1,28 +1,56 @@
 # DirectDesk
 
-[![Independence](https://img.shields.io/badge/Independence-47%25-0097A7)](#ra---the-crew-system)
-[![Current Step](https://img.shields.io/badge/Current_Step-2_of_7-102331)](#ra---the-crew-system)
+[![Independence](https://img.shields.io/badge/Independence-32%25-0097A7)](#ra---the-crew-system)
+[![Current Step](https://img.shields.io/badge/Current_Step-Independence_List-32_of_100-102331)](#ra---the-crew-system)
 [![Goal](https://img.shields.io/badge/Goal-10_Clients_At_299_A_Month-76FF03)](#what-directdesk-is)
 [![Website](https://img.shields.io/badge/Website-directdesk.net-0097A7)](https://directdesk.net)
-[![Repositories](https://img.shields.io/badge/Repositories-179-102331)](#the-catalogue)
-[![Commits](https://img.shields.io/badge/Commits-8%2C894-0097A7)](#the-catalogue)
+[![Repositories](https://img.shields.io/badge/Repositories-185-102331)](#the-catalogue)
+[![Commits](https://img.shields.io/badge/Commits-8%2C958-0097A7)](#the-catalogue)
 
 [![Sponsors](https://img.shields.io/badge/Sponsors-DirectDesk-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/directdesk-cmd)
-[![Goal Progress](https://img.shields.io/badge/Goal_Progress-Independence_47%25-76FF03)](#sponsor-directdesk)
+[![Goal Progress](https://img.shields.io/badge/Goal_Progress-Independence_32%25-76FF03)](#sponsor-directdesk)
 [![Response SLA](https://img.shields.io/badge/Critical_Issue_Triage-1h_SLA-orange)](#sponsor-directdesk)
 
 ![DirectDesk at a glance](board.svg)
 
-**By the numbers (as of November 5, 2026, counted in full at
-9:35 PM EST):** 179 repositories under
+**By the numbers (as of November 7, 2026, counted in full at
+11:44 PM EST):** 185 repositories under
 management - 520 working programs in the estate, 820 of them code -
-8,894 commits - 71 of them landed today alone, across 22
+8,958 commits - 58 of them landed today alone, across 16
 repositories - every shipped,
 file verified by read-back before
 it counts as delivered. Most repositories stay private until their
 release day; this page is the public window. The account numbers
 are counted in full from the account itself - no estimates - and
 refreshed by script, the same way every time.
+
+---
+
+## Shipped on November 7, 2026
+
+![Shipped](https://img.shields.io/badge/Shipped-November_7,_2026-0097A7?labelColor=102331)
+
+One day, counted in full: **58 commits landed across 16
+repositories.** Every shipped file was read back and byte-compared
+before it counted as delivered.
+
+- [x] **Puppy independence rose from 23 to 32 of 100.** Nine
+  items closed in one day: Command Server singleness proven
+  across a full day, the full boot-cycle proof, the crew's
+  living memory folded and shipped to all three of its homes,
+  and this GitHub burst - fourteen program files across
+  thirteen repositories, every one verified by read-back.
+- [x] **Open Ra Version 23 and Persona Windows Version 14
+  pushed.** Open Ra's boot set no longer carries two programs
+  proven not to be residents. Persona Windows Version 14
+  carries the typed-order fix: an order typed into Duke's
+  window while Duke's model is down is held in the window,
+  the model is loaded, and Duke answers once it is up.
+- [x] **The PowerShell 142 cure is built and pushed.** Sweep
+  Version 1 (the start-what's-missing sweep rewritten in
+  Python) and Sweep Caller Version 3 (no PowerShell left in
+  its code) take PowerShell out of the every-minute sweep
+  loop - the prime suspect for the 0xc0000142 error boxes.
 
 ---
 
@@ -75,16 +103,6 @@ across 15 repositories, every one byte-verified.
 
 ![In progress](https://img.shields.io/badge/In_Progress-What_is_next-FF9F1C?labelColor=102331)
 
-- **Duke for Android, Version 14 - in preparation.** The Version
-  14 source tree is pushed and verified; the build follows. It
-  comes straight from the Version 13 phone test: a larger session
-  window with headroom on both models (the test found the chat
-  ceiling - the assembled prompt outgrows the session window), a
-  load sheet that always shows the live attempt instead of a stale
-  error, a read-check for model files kept outside the library,
-  and a fix for the phone-to-Puppy postbox send fault - diagnosed
-  the same night: Puppy's half and the script are healthy; the
-  fault is in the app's send path.
 - **The status beacon's durable start.** Its code is proven in the
   open; the quiet auto-start is being made to stick, and its
   watcher is learning to refill its restart budget after a long
@@ -129,16 +147,16 @@ one job, and the jobs chain together.
   call day and night, answers questions, books the introduction call,
   takes messages word for word, notifies the owner the moment a message
   lands, and connects callers who need the owner live. Current build:
-  Version 12.
-- **Duke for Android - Version 13** - the crew in your pocket: the Puppy Commander. A phone
+  Version 14.
+- **Duke for Android - Version 14** - the crew in your pocket: the Puppy Commander. A phone
   companion that runs its own model on the device, works mostly offline,
   and hands heavy work to the crew at home when it is in reach.
-  Version 13's work runs background-proof under a live
+  Version 14's work runs background-proof under a live
   notification, its model import resumes where it stopped, and
   it pairs with the crew by a single scan - no typed settings,
-  ever. Version 13 shipped on November 5, 2026 - built in one
-  GitHub Actions run, released, and phone-tested the same evening.
-  Version 14 is in preparation from what that test found.
+  ever. Version 14 shipped on November 5, 2026 - built in one
+  GitHub Actions run, released, and verified. Its phone test is
+  still to come.
 - **DirectDesk WebChat Agent - Version 3** - the chat agent for client
   websites: answers visitors, offers the products, and books - the same
   receptionist discipline as Maya, in text.
@@ -166,20 +184,21 @@ one job, and the jobs chain together.
 Ra is DirectDesk's local AI crew: a team of six on one machine, running
 local models, accepting typed instructions and writing its own
 programs. No cloud in the loop - when Ra is finished, it stands alone.
-Independence stands at 47%; the current step is 2 of 7, intake
-autostart. Everything in this section is a working part of Ra.
+Independence stands at 32%, measured on the 100-item
+independence list. Everything in this section is a working part of Ra.
 
-Independence is a seven-step ladder - last measured at 47 of 100:
+Independence is now measured on a 100-item list - last measured
+at 32 of 100. The seven steps the list grew from:
 
 | Step | What it proves | State |
 | --- | --- | --- |
 | 1 | The command road works end to end | **Closed** |
 | 2 | Intake autostart - Ra comes up on its own | Mostly built |
-| 3 | Kill and wedge drills pass | In progress |
+| 3 | Kill and wedge drills pass | **Closed** |
 | 4 | Sarah's keyed seal becomes the authority | Planned |
 | 5 | Keyed memory pulls | Planned |
 | 6 | The single-window face, end to end | In progress |
-| 7 | A typed order runs clean through Duke's window | Planned |
+| 7 | A typed order runs clean through Duke's window | In progress |
 
 ### How work moves
 
@@ -192,7 +211,7 @@ Independence is a seven-step ladder - last measured at 47 of 100:
   it, and bring the result back.
 - **Queue Bridge Keeper - Version 3** - keeps the lanes between the
   queue's homes open and moving.
-- **Tool Dispatcher - Version 6** - every tool call the crew makes
+- **Tool Dispatcher - Version 7** - every tool call the crew makes
   goes through one door: the dispatcher looks the tool up in the
   registry, runs it, and writes a receipt for every call, so no
   tool's work is ever taken on trust.
@@ -219,7 +238,7 @@ Independence is a seven-step ladder - last measured at 47 of 100:
 - **Crew Personas - Version 1** - the six of them, written down: who
   each one is, what their job is, and how they work - loaded fresh for
   every task, so each of them comes to work as themselves.
-- **Persona Windows - Version 8** - the crew's one window: all six
+- **Persona Windows - Version 14** - the crew's one window: all six
   panes in a single frame on
   one screen, each pane in its own color, its live work and the
   matrix rain that shows when its owner is thinking visible at a
@@ -236,7 +255,7 @@ Independence is a seven-step ladder - last measured at 47 of 100:
 
 ### How Ra stays alive
 
-- **Open Ra - Version 13** - one command brings the whole crew up, face
+- **Open Ra - Version 23** - one command brings the whole crew up, face
   first: all six panes in one window on one screen, every seat
   answering, proven by a
   census, not assumed.
@@ -247,7 +266,11 @@ Independence is a seven-step ladder - last measured at 47 of 100:
   itself; what falls is restarted, what wedges is cut out.
 - **Start What's Missing - Version 6** - the minute sweep: finds
   anything that should be running and is not, and starts it.
-- **Health Watch - Version 2** - Kevin's standing watch over the
+- **Sweep - Version 1** - the same minute sweep rewritten in
+  Python, Start What's Missing's successor: the standing list
+  checked and the missing started, with no PowerShell in the
+  loop.
+- **Health Watch - Version 4** - Kevin's standing watch over the
   machine itself: disk, memory, heat, and the crew's heartbeat,
   checked every minute, with the authority to revive what falls.
 - **Queue Guardian - Version 4** - watches the queue itself: a stalled
@@ -267,10 +290,10 @@ Independence is a seven-step ladder - last measured at 47 of 100:
 
 - **Screen Watch - Version 4** - the crew's eyes on its own machine:
   watches the screen, names what changed, raises what matters.
-- **Iris Image Inspect - Version 2** - every picture the crew makes
+- **Iris Image Inspect - Version 3** - every picture the crew makes
   is inspected the moment it lands, against the checklist, before
   anyone calls it good.
-- **Maya Media Render - Version 5** - Maya's render engine: the
+- **Maya Media Render - Version 7** - Maya's render engine: the
   marketing pictures and media, made to order on the local
   machine.
 - **Text Layer - Version 2** - words are drawn by program, never
@@ -299,7 +322,7 @@ Independence is a seven-step ladder - last measured at 47 of 100:
 - **DirectDesk Offline Memory - Version 1** - that memory, kept in
   three homes at once and verified in each, so no single failure can
   take it.
-- **Duke Beacon - Version 2** - a one-minute heartbeat written where
+- **Duke Beacon - Version 3** - a one-minute heartbeat written where
   the owner can always see it: the machine's state, in plain words.
 - **System Logger - Version 3** - the estate's diary: first breath to
   exit code, timestamped, and nothing that does not matter.
@@ -380,7 +403,7 @@ fleet - plus the CI runners and test hardware that keep every release
 verified before it ships. Not a tip jar: every tier below buys a
 tangible outcome.
 
-> **Status, November 5, 2026:** the GitHub Sponsors profile is
+> **Status, November 7, 2026:** the GitHub Sponsors profile is
 > submitted and in GitHub's approval queue. Sponsorship opens the
 > moment it is approved - the tiers are set, the funding file is
 > in place, and everything on this page is ready for that day.
