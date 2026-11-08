@@ -1,16 +1,16 @@
 {
   "org": "DirectDesk",
   "tagline": "AI phone answering and website services for small businesses",
-  "independence_pct": 33,
+  "independence_pct": 38,
   "step": "Independence List",
-  "step_name": "33 of 100 closed",
+  "step_name": "38 of 100 closed",
   "website": "directdesk.net",
   "lines": [
     {
       "name": "Ra - the local AI crew",
       "blurb": "A standing agent team on a local machine: it accepts typed instructions and writes its own programs.",
-      "status": "Independence 33% - 33 of 100 items closed",
-      "pct": 33
+      "status": "Independence 38% - 38 of 100 items closed",
+      "pct": 38
     },
     {
       "name": "Duke - Android companion",
