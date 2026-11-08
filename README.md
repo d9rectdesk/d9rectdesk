@@ -1,24 +1,23 @@
 # DirectDesk
 
-[![Independence](https://img.shields.io/badge/Independence-38%25-0097A7)](#ra---the-crew-system)
-[![Current Step](https://img.shields.io/badge/Current_Step-Independence_List-38_of_100-102331)](#ra---the-crew-system)
+[![Independence](https://img.shields.io/badge/Independence-40%25-0097A7)](#ra---the-crew-system)
+[![Current Step](https://img.shields.io/badge/Current_Step-Independence_List-40_of_100-102331)](#ra---the-crew-system)
 [![Goal](https://img.shields.io/badge/Goal-10_Clients_At_299_A_Month-76FF03)](#what-directdesk-is)
 [![Website](https://img.shields.io/badge/Website-directdesk.net-0097A7)](https://directdesk.net)
 [![Repositories](https://img.shields.io/badge/Repositories-187-102331)](#the-catalogue)
-[![Commits](https://img.shields.io/badge/Commits-8%2C986-0097A7)](#the-catalogue)
+[![Commits](https://img.shields.io/badge/Commits-9%2C000-0097A7)](#the-catalogue)
 
 [![Sponsors](https://img.shields.io/badge/Sponsors-DirectDesk-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/directdesk-cmd)
-[![Goal Progress](https://img.shields.io/badge/Goal_Progress-Independence_38%25-76FF03)](#sponsor-directdesk)
+[![Goal Progress](https://img.shields.io/badge/Goal_Progress-Independence_40%25-76FF03)](#sponsor-directdesk)
 [![Response SLA](https://img.shields.io/badge/Critical_Issue_Triage-1h_SLA-orange)](#sponsor-directdesk)
 
 ![DirectDesk at a glance](board.svg)
 
 **By the numbers (as of November 8, 2026, counted in full at
-11:04 AM EST):** 187 repositories under
+12:51 PM EST):** 187 repositories under
 management - 520 working programs in the estate, 820 of them code -
-8,986 commits - 28 of them landed today alone, across 7
-repositories - every shipped,
-file verified by read-back before
+9,000 commits - 42 of them landed today alone, across 9
+repositories - every shipped file verified by read-back before
 it counts as delivered. Most repositories stay private until their
 release day; this page is the public window. The account numbers
 are counted in full from the account itself - no estimates - and
@@ -30,7 +29,7 @@ refreshed by script, the same way every time.
 
 ![Shipped](https://img.shields.io/badge/Shipped-November_8,_2026-0097A7?labelColor=102331)
 
-One day, counted in full: **28 commits landed across 7
+One day, counted in full: **42 commits landed across 9
 repositories.** Every shipped file was read back and byte-compared
 before it counted as delivered.
 
@@ -53,21 +52,38 @@ before it counted as delivered.
   proven running all along under their current versions; the
   beacon was watching names from older versions. Version 4
   watches the true list, and the board reads clean.
-- [x] **Open Ra Version 25 pushed and installed.** The boot
+- [x] **Open Ra Version 26 pushed and installed.** The boot
   pointers now name the current crew: Duke Beacon Version 4,
-  Persona Windows Version 14, and Server Guard Version 3 - so
-  the next start brings up today's versions, not yesterday's.
+  Persona Windows Version 14, Server Guard Version 3, and
+  Queue Manager Version 4 - so the next start brings up
+  today's versions, not yesterday's.
 - [x] **Server Guard Version 3 shipped and proven live.** When
   a model server dies, the guard used to relaunch it through
   PowerShell; Version 3 starts it directly instead. The proof
   run brought a real model server up to full health with no
-  PowerShell anywhere in the path. Open Ra Version 25 boots it.
+  PowerShell anywhere in the path. Open Ra Version 26 boots it.
 - [x] **Puppy independence rose to 33 of 100.** The last open
   piece of the tool group closed: the Governor was proven to be
   Idle Offload Version 3 - byte-identical to the copy already
   held here - and the patched Drive Stall Watchdog Version 3
   was fetched from the machine and pushed, verified by
   read-back.
+- [x] **Queue Manager Version 4 is live.** The bookkeeper was
+  writing its job records in a spelling the Governor and the
+  crew's window could not read, so work waiting in the queue
+  never called a model up. Version 4 writes the spelling
+  everyone reads, and reads both spellings itself. The swap
+  was proven live on the machine, and every waiting job on
+  the book was converted in place.
+- [x] **A render ran clean through the tool layer.** A picture
+  render went through the dispatcher with the whole graphics
+  card free for the work, and the finished picture came back
+  with its receipt - closing the render item on the
+  independence list.
+- [x] **The vision model shares the machine with the crew.**
+  Iris's vision model ran at the same time as two of the
+  crew's seat models, every server answering healthy - her
+  sight no longer waits for a seat model to leave first.
 
 ---
 
@@ -229,11 +245,11 @@ one job, and the jobs chain together.
 Ra is DirectDesk's local AI crew: a team of six on one machine, running
 local models, accepting typed instructions and writing its own
 programs. No cloud in the loop - when Ra is finished, it stands alone.
-Independence stands at 38%, measured on the 100-item
+Independence stands at 40%, measured on the 100-item
 independence list. Everything in this section is a working part of Ra.
 
 Independence is now measured on a 100-item list - last measured
-at 38 of 100. The seven steps the list grew from:
+at 40 of 100. The seven steps the list grew from:
 
 | Step | What it proves | State |
 | --- | --- | --- |
@@ -249,7 +265,7 @@ at 38 of 100. The seven steps the list grew from:
 
 - **Order Intake - Version 13** - reads each typed instruction, breaks
   it into jobs, and files them with a time estimate on every one.
-- **Queue Manager - Version 3** - the bookkeeper: every job recorded,
+- **Queue Manager - Version 4** - the bookkeeper: every job recorded,
   claimed, and closed in the book, nothing run twice, nothing lost.
 - **Queue File Job - Version 1** and **Crew Job Wrapper - Version 1** -
   the hands that carry a job from the book to the crew member who runs
@@ -300,7 +316,7 @@ at 38 of 100. The seven steps the list grew from:
 
 ### How Ra stays alive
 
-- **Open Ra - Version 25** - one command brings the whole crew up, face
+- **Open Ra - Version 26** - one command brings the whole crew up, face
   first: all six panes in one window on one screen, every seat
   answering, proven by a
   census, not assumed.
