@@ -1,21 +1,21 @@
 {
   "org": "DirectDesk",
   "tagline": "AI phone answering and website services for small businesses",
-  "independence_pct": 47,
-  "step": "2 of 7",
-  "step_name": "Intake autostart",
+  "independence_pct": 33,
+  "step": "Independence List",
+  "step_name": "33 of 100 closed",
   "website": "directdesk.net",
   "lines": [
     {
       "name": "Ra - the local AI crew",
       "blurb": "A standing agent team on a local machine: it accepts typed instructions and writes its own programs.",
-      "status": "Independence 47% - Step 1 closed, Step 2 of 7",
-      "pct": 47
+      "status": "Independence 33% - 33 of 100 items closed",
+      "pct": 33
     },
     {
       "name": "Duke - Android companion",
       "blurb": "The phone companion app for the crew: talk to the team from anywhere.",
-      "status": "Version 13 released - Version 14 in preparation",
+      "status": "Version 14 released",
       "pct": null
     },
     {
