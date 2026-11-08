@@ -1,28 +1,67 @@
 # DirectDesk
 
-[![Independence](https://img.shields.io/badge/Independence-32%25-0097A7)](#ra---the-crew-system)
-[![Current Step](https://img.shields.io/badge/Current_Step-Independence_List-32_of_100-102331)](#ra---the-crew-system)
+[![Independence](https://img.shields.io/badge/Independence-33%25-0097A7)](#ra---the-crew-system)
+[![Current Step](https://img.shields.io/badge/Current_Step-Independence_List-33_of_100-102331)](#ra---the-crew-system)
 [![Goal](https://img.shields.io/badge/Goal-10_Clients_At_299_A_Month-76FF03)](#what-directdesk-is)
 [![Website](https://img.shields.io/badge/Website-directdesk.net-0097A7)](https://directdesk.net)
-[![Repositories](https://img.shields.io/badge/Repositories-185-102331)](#the-catalogue)
-[![Commits](https://img.shields.io/badge/Commits-8%2C958-0097A7)](#the-catalogue)
+[![Repositories](https://img.shields.io/badge/Repositories-187-102331)](#the-catalogue)
+[![Commits](https://img.shields.io/badge/Commits-8%2C982-0097A7)](#the-catalogue)
 
 [![Sponsors](https://img.shields.io/badge/Sponsors-DirectDesk-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/directdesk-cmd)
-[![Goal Progress](https://img.shields.io/badge/Goal_Progress-Independence_32%25-76FF03)](#sponsor-directdesk)
+[![Goal Progress](https://img.shields.io/badge/Goal_Progress-Independence_33%25-76FF03)](#sponsor-directdesk)
 [![Response SLA](https://img.shields.io/badge/Critical_Issue_Triage-1h_SLA-orange)](#sponsor-directdesk)
 
 ![DirectDesk at a glance](board.svg)
 
-**By the numbers (as of November 7, 2026, counted in full at
-11:44 PM EST):** 185 repositories under
+**By the numbers (as of November 8, 2026, counted in full at
+10:14 AM EST):** 187 repositories under
 management - 520 working programs in the estate, 820 of them code -
-8,958 commits - 58 of them landed today alone, across 16
+8,982 commits - 24 of them landed today alone, across 7
 repositories - every shipped,
 file verified by read-back before
 it counts as delivered. Most repositories stay private until their
 release day; this page is the public window. The account numbers
 are counted in full from the account itself - no estimates - and
 refreshed by script, the same way every time.
+
+---
+
+## Shipped on November 8, 2026
+
+![Shipped](https://img.shields.io/badge/Shipped-November_8,_2026-0097A7?labelColor=102331)
+
+One day, counted in full: **24 commits landed across 7
+repositories.** Every shipped file was read back and byte-compared
+before it counted as delivered.
+
+- [x] **The PowerShell 142 error is cured on the machine.** The
+  error's own record was found in the machine's System log: 24
+  popups since boot, every one PowerShell failing to start
+  (0xc0000142) - the exact count the owner had reported by hand.
+  Sweep Version 1 and Sweep Caller Version 3 are installed and
+  verified across two full sweep cycles with no new error: the
+  every-minute sweep no longer starts PowerShell at all.
+- [x] **Powershell Gate Version 1 shipped and proven live.**
+  Every PowerShell start the crew makes now passes through one
+  gate that spaces starts ten seconds apart, machine-wide -
+  proven live on the machine with back-to-back gated calls, the
+  second start landing exactly ten seconds after the first,
+  across separate programs as well.
+- [x] **Duke Beacon Version 4 is live, watching true names.**
+  Three programs the status board had shown as down - Queue
+  Bridge Keeper, Queue Guardian, and Watchdog Supervisor - were
+  proven running all along under their current versions; the
+  beacon was watching names from older versions. Version 4
+  watches the true list, and the board reads clean.
+- [x] **Open Ra Version 24 pushed.** Its boot pointers now name
+  Duke Beacon Version 4 and Persona Windows Version 14, so the
+  next start brings up the current crew.
+- [x] **Puppy independence rose to 33 of 100.** The last open
+  piece of the tool group closed: the Governor was proven to be
+  Idle Offload Version 3 - byte-identical to the copy already
+  held here - and the patched Drive Stall Watchdog Version 3
+  was fetched from the machine and pushed, verified by
+  read-back.
 
 ---
 
@@ -184,11 +223,11 @@ one job, and the jobs chain together.
 Ra is DirectDesk's local AI crew: a team of six on one machine, running
 local models, accepting typed instructions and writing its own
 programs. No cloud in the loop - when Ra is finished, it stands alone.
-Independence stands at 32%, measured on the 100-item
+Independence stands at 33%, measured on the 100-item
 independence list. Everything in this section is a working part of Ra.
 
 Independence is now measured on a 100-item list - last measured
-at 32 of 100. The seven steps the list grew from:
+at 33 of 100. The seven steps the list grew from:
 
 | Step | What it proves | State |
 | --- | --- | --- |
@@ -255,7 +294,7 @@ at 32 of 100. The seven steps the list grew from:
 
 ### How Ra stays alive
 
-- **Open Ra - Version 23** - one command brings the whole crew up, face
+- **Open Ra - Version 24** - one command brings the whole crew up, face
   first: all six panes in one window on one screen, every seat
   answering, proven by a
   census, not assumed.
@@ -322,7 +361,7 @@ at 32 of 100. The seven steps the list grew from:
 - **DirectDesk Offline Memory - Version 1** - that memory, kept in
   three homes at once and verified in each, so no single failure can
   take it.
-- **Duke Beacon - Version 3** - a one-minute heartbeat written where
+- **Duke Beacon - Version 4** - a one-minute heartbeat written where
   the owner can always see it: the machine's state, in plain words.
 - **System Logger - Version 3** - the estate's diary: first breath to
   exit code, timestamped, and nothing that does not matter.
@@ -403,7 +442,7 @@ fleet - plus the CI runners and test hardware that keep every release
 verified before it ships. Not a tip jar: every tier below buys a
 tangible outcome.
 
-> **Status, November 7, 2026:** the GitHub Sponsors profile is
+> **Status, November 8, 2026:** the GitHub Sponsors profile is
 > submitted and in GitHub's approval queue. Sponsorship opens the
 > moment it is approved - the tiers are set, the funding file is
 > in place, and everything on this page is ready for that day.
