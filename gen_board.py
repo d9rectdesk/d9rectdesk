@@ -71,14 +71,11 @@ def text(x, y, size, fill, txt, bold=False, anchor=None, budget=None):
 def main():
     d = json.load(open(os.path.join(HERE, "board_data.json")))
     W = 880; pad = 28; rows = []
-    # Header band: name, tagline, goal pill.
+    # Header band: name and tagline only. (The goal lives in the
+    # page prose, stated once - the panel does not repeat it.)
     rows.append('<rect width="%d" height="96" fill="%s"/>' % (W, NAVY))
-    rows.append(text(pad, 42, 30, WHITE, d["org"], bold=True, budget=520))
-    rows.append(text(pad, 72, 15, TINT, d["tagline"], budget=520))
-    goal = "Goal: %s" % d["goal"]
-    pill_w = max(252, int(est_width(goal, 15, True)) + 40)
-    rows.append('<rect x="%d" y="26" width="%d" height="44" rx="8" fill="%s"/>' % (W - pad - pill_w, pill_w, GREEN))
-    rows.append(text(W - pad - pill_w // 2, 54, 15, NAVY, goal, bold=True, anchor="middle", budget=pill_w - 16))
+    rows.append(text(pad, 42, 30, WHITE, d["org"], bold=True, budget=W - 2 * pad))
+    rows.append(text(pad, 72, 15, TINT, d["tagline"], budget=W - 2 * pad))
     # Stats band: three columns, each string in its own slot.
     y = 96
     rows.append('<rect y="%d" width="%d" height="92" fill="%s"/>' % (y, W, BG))
@@ -108,19 +105,18 @@ def main():
             rows.append(bar(W - pad - 190, y + 52, 190, ln["pct"], GREEN))
         y += 86
     # Crew band: every person's name in their own color (the
-    # Persona_Windows PERSONAS table) on navy, role underneath.
+    # Persona_Windows PERSONAS table) on navy. Names only -
+    # roles live in the page's crew section, stated once.
     crew = d.get("crew") or []
     if crew:
-        rows.append('<rect y="%d" width="%d" height="76" fill="%s"/>' % (y, W, NAVY))
+        rows.append('<rect y="%d" width="%d" height="64" fill="%s"/>' % (y, W, NAVY))
         rows.append(text(pad, y + 20, 11, TINT, "THE CREW", bold=True, budget=200))
         n = len(crew)
         for i, p in enumerate(crew):
             cx = pad + int((W - 2 * pad) * (i + 0.5) / n)
-            rows.append(text(cx, y + 48, 16, p["color"], p["name"],
+            rows.append(text(cx, y + 50, 18, p["color"], p["name"],
                              bold=True, anchor="middle", budget=124))
-            rows.append(text(cx, y + 68, 11, "#E8E8E8", p["role"],
-                             anchor="middle", budget=124))
-        y += 76
+        y += 64
     rows.append('<rect y="%d" width="%d" height="30" fill="%s"/>' % (y, W, NAVY))
     rows.append(text(pad, y + 19, 11, TINT,
                      "Public board - basic information only. It rebuilds itself from board_data.json.",
