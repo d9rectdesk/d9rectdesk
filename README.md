@@ -16,7 +16,7 @@
 **By the numbers (as of November 8, 2026, counted in full at
 10:14 AM EST):** 187 repositories under
 management - 520 working programs in the estate, 820 of them code -
-8,982 commits - 24 of them landed today alone, across 7
+8,982 commits - 27 of them landed today alone, across 7
 repositories - every shipped,
 file verified by read-back before
 it counts as delivered. Most repositories stay private until their
@@ -30,7 +30,7 @@ refreshed by script, the same way every time.
 
 ![Shipped](https://img.shields.io/badge/Shipped-November_8,_2026-0097A7?labelColor=102331)
 
-One day, counted in full: **24 commits landed across 7
+One day, counted in full: **27 commits landed across 7
 repositories.** Every shipped file was read back and byte-compared
 before it counted as delivered.
 
@@ -53,9 +53,15 @@ before it counted as delivered.
   proven running all along under their current versions; the
   beacon was watching names from older versions. Version 4
   watches the true list, and the board reads clean.
-- [x] **Open Ra Version 24 pushed.** Its boot pointers now name
-  Duke Beacon Version 4 and Persona Windows Version 14, so the
-  next start brings up the current crew.
+- [x] **Open Ra Version 25 pushed and installed.** The boot
+  pointers now name the current crew: Duke Beacon Version 4,
+  Persona Windows Version 14, and Server Guard Version 3 - so
+  the next start brings up today's versions, not yesterday's.
+- [x] **Server Guard Version 3 shipped and proven live.** When
+  a model server dies, the guard used to relaunch it through
+  PowerShell; Version 3 starts it directly instead. The proof
+  run brought a real model server up to full health with no
+  PowerShell anywhere in the path. Open Ra Version 25 boots it.
 - [x] **Puppy independence rose to 33 of 100.** The last open
   piece of the tool group closed: the Governor was proven to be
   Idle Offload Version 3 - byte-identical to the copy already
@@ -294,7 +300,7 @@ at 33 of 100. The seven steps the list grew from:
 
 ### How Ra stays alive
 
-- **Open Ra - Version 24** - one command brings the whole crew up, face
+- **Open Ra - Version 25** - one command brings the whole crew up, face
   first: all six panes in one window on one screen, every seat
   answering, proven by a
   census, not assumed.
