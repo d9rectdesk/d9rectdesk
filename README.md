@@ -33,8 +33,9 @@ the work, the crew, the goal, and the numbers.
 
 ![Building](https://img.shields.io/badge/Building-Services_And_Prices-0197A6?labelColor=102331)
 
-- ![Maya](https://img.shields.io/badge/Maya-FF9F1C)
-  **AI phone answering.** Maya answers every call, books the
+- ![AI Receptionist](https://img.shields.io/badge/AI_Receptionist-0197A6?labelColor=102331)
+  **AI phone answering.** Your own AI receptionist - you
+  name it yourself - answers every call, books the
   introduction call, takes messages word for word, and tells
   the owner the moment one lands.
   ![Go](https://img.shields.io/badge/Go-0197A6?labelColor=102331)
