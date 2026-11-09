@@ -150,71 +150,20 @@ toolbox of single-purpose tools, each doing one job.
 
 ## Found and fixed
 
-A register of what broke, what I found, and what I fixed —
-the detail that shows how the work is done. The running
-count lives at the top of this page.
+The full register stays in my working records - 89 faults
+logged and ridden until closed. This page shows the one that
+best proves the method: the most complex problem I have met,
+with the simplest solution, and one that could only happen in
+this code.
 
-- **Windows that stole the keyboard.** Programs kept opening
-  windows and grabbing focus while I typed. I hunted the
-  fault through ten separate programs and gave every
-  background start a hidden, no-focus path; the desktop stays
-  quiet now, and the work still runs.
-- **The recurring Windows start error.** A Windows error —
-  0xc0000142 — kept popping up as programs failed to start:
-  two dozen cases sat in the machine's own System log. I
-  traced the pattern that spawned them, took the
-  every-minute sweep off that road entirely, and put a gate
-  on the machine that spaces those starts ten seconds apart.
-  Zero new cases since.
-- **A seal that could be copied.** The programmer's seal on
-  finished work could be copied onto anything and pass as
-  hers. It is now a keyed signature over the exact bytes of
-  the work; the key lives with one seat only, and anything
-  unverified is treated as unsealed.
-- **Two clicks in the same millisecond.** In the queue tray,
-  a reorder and a cancel landing in the same millisecond
-  silently overwrote each other — one action simply vanished.
-  Found by testing the tray against the real bookkeeper; the
-  tray now names every action so none can erase another.
-- **A render gate that lied.** The picture renderer checked
-  the graphics card's free memory and passed its gate — while
-  the card's memory was already committed, and the render
-  failed. Renders now start only from a fully parked, settled
-  card, the discipline behind every successful render since.
-- **A shutdown that did not shut down.** Closing the system
-  left watchers alive, and they quietly revived the programs
-  behind it. The close now stops everything, in order, with
-  a backstop that catches anything no list names — and
-  leaves exactly one silent survivor: the command tunnel, so
-  the machine can still be reached, and Ra started again,
-  from anywhere.
-- **Twins, told apart.** Two copies of the same program can
-  run at once, and a careless census kills the wrong twin —
-  or itself. My census names each process by its identity
-  first, proves which copy is the extra, and only then acts.
-  A checker can never match itself.
-- **A memory three days stale.** The crew's living memory on
-  the machine turned out to be an old snapshot, thousands of
-  bytes behind the real one. Found by comparing hashes,
-  replaced at the exact path the crew reads, and verified
-  byte-for-byte on the machine itself.
 - **The bookkeeper's spelling.** The queue's bookkeeper wrote
   job records in a spelling the rest of the crew could not
-  read, so waiting work never called a model up. It now
-  writes the spelling everyone reads, reads both spellings
-  itself, and every waiting job on the book was converted in
-  place.
-- **A job nobody could read.** Filed jobs carried their state
-  in a spelling the governor ignored, so models stayed asleep
-  over waiting work. The governor now reads both spellings —
-  a job calls its seat's model up from the moment it is
-  filed.
-- **A server brought back without the broken road.** A fallen
-  model server's old relaunch path ran through the same
-  machinery behind the Windows start error. Server Guard now
-  restarts it directly and proves it healthy — shown with a
-  real server brought back to full health.
-
+  read, so waiting work never called a model up - jobs sat
+  filed, models sat asleep, and nothing anywhere reported an
+  error. The diagnosis took the whole chain apart. The fix
+  was one spelling: the bookkeeper now writes the spelling
+  everyone reads, reads both spellings itself, and every
+  waiting job on the book was converted in place.
 ---
 
 ## Sponsor
