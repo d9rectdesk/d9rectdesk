@@ -16,11 +16,11 @@ and built by me.
 > **The short version.** I build **Ra** — a crew of AI agents
 > that lives on my own computer, writes and runs its own
 > programs, and does its work with no cloud in the loop. It is
-> one chain end to end: **Duke for Android** in my pocket,
-> **Ra** on the machine at home, **Duke for Windows** on my
+> one chain end to end: **Ra.APK** in my pocket,
+> **Ra** on the machine at home, **Ra.EXE** on my
 > desktop. **Ra independence: 47% — 47 of 100 hard steps
 > proven, the rest in open work.** **Problems found and
-> fixed: 39.** Sponsorship funds the programming — the tiers
+> fixed: 40.** Sponsorship funds the programming — the tiers
 > are under [Sponsor](#sponsor), below.
 
 *The fix count is exact, from GitHub's own totals on
@@ -104,13 +104,13 @@ seat works.
 
 ## One chain: phone, home, desktop
 
-- **Duke for Android** is the crew in my pocket. The app runs
+- **Ra.APK** is the crew in my pocket. The app runs
   its own model on the phone, works mostly offline, and when
   the machine at home is in reach it hands the heavy work to
   Ra and brings the results back.
 - **Ra** is the middle of the chain and does the heavy work:
   the crew, the models, the tools, the memory.
-- **Duke for Windows** is the same system on my desktop: talk
+- **Ra.EXE** is the same system on my desktop: talk
   to the crew, watch the work as it happens, and run the
   machine — the full reach of the home system, from the
   chair.
