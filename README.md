@@ -46,6 +46,20 @@ code, maintained by one person to a hard standard: every
 change passes a review gate before it ships, every claim is
 proven by an instrument reading, and nothing is called done
 on anyone's say-so.
+---
+
+## The logo, and DirectDesk
+
+The picture at the top is DirectDesk's logo - mine. A gear for the tools and the trade, a screen for the systems, and a telephone handset for the calls, inside one ring: the whole business in one mark.
+
+DirectDesk is my business in Columbus, Georgia - the work the programming grew out of, and the work it still serves. It offers four services:
+
+- **AI Phone Agent** - an AI receptionist that answers a business's calls around the clock, books appointments, and takes messages.
+- **Website Chat Agent** - a chat agent on the business's own website that answers visitors and captures leads.
+- **Website Management** - business websites kept updated, monitored, and secure.
+- **On-Call Tech Support** - local computer and technology help, by the hour.
+
+This page stays pointed at the programming, because that is what sponsorship funds: the builder, and the systems he builds. DirectDesk is where those systems earn their keep.
 
 ---
 
