@@ -2,7 +2,7 @@
   <img src="logo.jpg" width="150" alt="DirectDesk logo">
 </p>
 
-# Glen Modlin
+# Glen Modlin 
 
 **Programmer.** A lifelong background in technology, and a
 one-man builder: everything described on this page was designed
