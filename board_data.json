@@ -1,9 +1,10 @@
 {
   "org": "DirectDesk",
   "tagline": "AI phone answering and website services for small businesses",
-  "independence_pct": 47,
-  "step": "Independence List",
-  "step_name": "As of November 8, 2026",
+  "independence_pct": null,
+  "independence_label": "In active development",
+  "step": "The independence work",
+  "step_name": "In progress",
   "website": "directdesk.net",
   "lines": [
     {

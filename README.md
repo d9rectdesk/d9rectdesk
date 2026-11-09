@@ -25,7 +25,7 @@ lose a job to an unanswered phone.
 The service answers, books, and takes messages. The crew that
 builds and runs it - Ra - works on one local machine, with no
 cloud in the loop. What follows is the whole of it: the services,
-the work, the crew, the goal, and the numbers.
+the work, the crew, and the goal.
 
 ---
 
@@ -63,17 +63,9 @@ the work, the crew, the goal, and the numbers.
   a control panel and companion that watches, speaks, reads the
   screen, and does the small jobs.
 
-Every other program in the fleet lives in its own repository,
-in the list below this page.
-
 ---
 
 ![DirectDesk at a glance](board.svg)
-
-**By the numbers** (counted in full on November 8, 2026, at
-2:39 PM EST): 187 repositories - 9,006 commits -
-51 of them landed today, across 10
-repositories. Counted from the account itself - no estimates.
 
 ---
 
@@ -128,37 +120,35 @@ the push for those clients is under way.
 
 **Independence.** Ra is being made able to run the whole
 operation alone. The work is tracked item by item on a plain
-checklist, every item closed only on proof - the panel above
-carries the current score. Of the seven steps the list grew
-from, Steps 1 and 3 are closed, Steps 2, 6, and 7 are in
-progress, and Steps 4 and 5 are planned.
+checklist, every item closed only on proof, and it is in
+active development.
 
 ### How Ra stays alive
 
 Ra is the crew's home system: six people, local models, one
 machine. These are the parts that keep it standing:
 
-- **Open Ra - Version 26** - one command brings the whole crew
+- **Open Ra** - one command brings the whole crew
   up, face first, proven by a census - not assumed.
-- **Persona Windows - Version 14** - the crew's one window:
+- **Persona Windows** - the crew's one window:
   every pane on one screen, each in its owner's color.
-- **Queue Manager - Version 4** - the bookkeeper: every job
+- **Queue Manager** - the bookkeeper: every job
   recorded, claimed, and closed. Nothing run twice, nothing
   lost.
-- **Idle Offload - Version 4** (the Governor) - a seat's model
+- **Idle Offload** (the Governor) - a seat's model
   loads the moment work arrives and parks when the work ends,
   so the graphics card belongs to whoever is working.
-- **Server Guard - Version 3** - restarts a fallen model
+- **Server Guard** - restarts a fallen model
   server directly, and proves it healthy.
-- **Duke Beacon - Version 4** - a one-minute heartbeat: the
+- **Duke Beacon** - a regular heartbeat: the
   machine's state, in plain words.
-- **Tool Dispatcher - Version 7** - every tool call the crew
+- **Tool Dispatcher** - every tool call the crew
   makes goes through one door, with a receipt for each call.
-- **Health Watch - Version 4** - a standing watch over the
+- **Health Watch** - a standing watch over the
   machine itself, with the authority to revive what falls.
 
 Behind them stand the crew's memory, its voice and media
-chain, and a toolbox of forty single-purpose tools.
+chain, and a toolbox of single-purpose tools.
 
 ---
 
@@ -173,8 +163,7 @@ chain, and a toolbox of forty single-purpose tools.
 - **Builder - $75/month** - early access to pre-release builds,
   and a vote on the next feature priorities.
 - **Silver Org - $250/month** - company logo on the repository
-  README and the documentation sidebar, and a 1-hour critical
-  issue triage SLA.
+  README and the documentation sidebar.
 - **Corporate - $1,000/month** - named deliverables agreed per
   quarter, invoiced billing, and a quarterly report.
 
@@ -245,9 +234,6 @@ it fills in on its own as backers arrive.*
 
 - [x] **Nine independence items closed in one day** -
   including the full boot-cycle proof.
-- [x] **Persona Windows shipped the typed-order fix**: an
-  order typed into Duke's window while his model is down is
-  held, the model loads, and he answers.
 - [x] **The crew's living memory was folded and shipped** to
   all three of its homes, verified in each.
 
