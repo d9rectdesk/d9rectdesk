@@ -80,8 +80,12 @@ def main():
     y = 96
     rows.append('<rect y="%d" width="%d" height="92" fill="%s"/>' % (y, W, BG))
     rows.append(text(pad, y + 26, 13, MUTED, "INDEPENDENCE", budget=240))
-    rows.append(text(pad, y + 60, 26, TEAL, "%d%%" % d["independence_pct"], bold=True, budget=90))
-    rows.append(bar(pad + 92, y + 50, 150, d["independence_pct"], TEAL))
+    if d.get("independence_pct") is not None:
+        rows.append(text(pad, y + 60, 26, TEAL, "%d%%" % d["independence_pct"], bold=True, budget=90))
+        rows.append(bar(pad + 92, y + 50, 150, d["independence_pct"], TEAL))
+    else:
+        # No verified score to show: plain words instead of a percentage (2026-11-09).
+        rows.append(text(pad, y + 56, 19, TEAL, d.get("independence_label", "In progress"), bold=True, budget=264))
     rows.append(text(320, y + 26, 13, MUTED, "CURRENT STEP", budget=296))
     rows.append(text(320, y + 54, 19, NAVY, d["step"], bold=True, budget=296))
     rows.append(text(320, y + 78, 13, TEAL, d["step_name"], bold=True, budget=296))
