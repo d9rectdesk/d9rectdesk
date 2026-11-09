@@ -1,55 +1,55 @@
 {
-  "org": "DirectDesk",
-  "tagline": "AI phone answering and website services for small businesses",
-  "independence_pct": null,
-  "independence_label": "In active development",
-  "step": "The independence work",
-  "step_name": "In progress",
-  "website": "directdesk.net",
-  "lines": [
-    {
-      "name": "Ra - the local AI crew",
-      "blurb": "A standing team of AI agents on one local machine, writing its own programs.",
-      "status": "Live and running",
-      "pct": null
-    },
-    {
-      "name": "Duke - Android companion",
-      "blurb": "The crew's phone companion: talk to the team from anywhere.",
-      "status": "Released and verified",
-      "pct": null
-    },
-    {
-      "name": "DirectDesk Tools",
-      "blurb": "The working tool fleet behind the answering and website services.",
-      "status": "Tool layer live",
-      "pct": null
-    }
-  ],
-  "crew": [
-    {
-      "name": "Duke",
-      "color": "#FF2A2A"
-    },
-    {
-      "name": "Sarah",
-      "color": "#FFEA00"
-    },
-    {
-      "name": "Ethan",
-      "color": "#00E5FF"
-    },
-    {
-      "name": "Kevin",
-      "color": "#76FF03"
-    },
-    {
-      "name": "Maya",
-      "color": "#FF9F1C"
-    },
-    {
-      "name": "Iris",
-      "color": "#C77DFF"
-    }
-  ]
+ "org": "DirectDesk",
+ "tagline": "One programmer, an AI crew of his own making, and the tools they build together",
+ "independence_pct": null,
+ "independence_label": "In active development",
+ "step": "The independence work",
+ "step_name": "In progress",
+ "website": "directdesk.net",
+ "lines": [
+  {
+   "name": "Ra - the local AI crew",
+   "blurb": "A standing team of AI agents on one local machine, writing its own programs.",
+   "status": "Live and running",
+   "pct": null
+  },
+  {
+   "name": "Duke - Android companion",
+   "blurb": "The crew's phone companion: talk to the team from anywhere.",
+   "status": "Released and verified",
+   "pct": null
+  },
+  {
+   "name": "DirectDesk Tools",
+   "blurb": "A fleet of single-purpose tools, built and maintained by the crew.",
+   "status": "Tool layer live",
+   "pct": null
+  }
+ ],
+ "crew": [
+  {
+   "name": "Duke",
+   "color": "#FF2A2A"
+  },
+  {
+   "name": "Sarah",
+   "color": "#FFEA00"
+  },
+  {
+   "name": "Ethan",
+   "color": "#00E5FF"
+  },
+  {
+   "name": "Kevin",
+   "color": "#76FF03"
+  },
+  {
+   "name": "Maya",
+   "color": "#FF9F1C"
+  },
+  {
+   "name": "Iris",
+   "color": "#C77DFF"
+  }
+ ]
 }
