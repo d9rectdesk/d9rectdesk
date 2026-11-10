@@ -20,11 +20,11 @@ and built by me.
 > **Ra** on the machine at home, **Ra.EXE** on my
 > desktop. **Ra independence: 47% — 47 of 100 hard steps
 > proven, the rest in open work.** **Problems found and
-> fixed: 40.** Sponsorship funds the programming — the tiers
+> fixed: 47.** Sponsorship funds the programming — the tiers
 > are under [Sponsor](#sponsor), below.
 
 *The fix count is exact, from GitHub's own totals on
-November 9, 2026: 25 issues closed as completed plus 14 pull
+November 9, 2026: 26 issues closed as completed plus 21 pull
 requests merged across this account — every one a fault
 found, a fix shipped through review, or a work item closed
 out. Nothing estimated, nothing rounded. Behind it stands a
