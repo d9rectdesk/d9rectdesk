@@ -181,7 +181,7 @@ this code.
 - **Corporate - $1,000/month** - named deliverables agreed per
   quarter, invoiced billing, and a quarterly report.
 
-[![Become a sponsor](https://img.shields.io/badge/Sponsor_on_GitHub-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/directdesk-cmd)
+[![Become a sponsor](https://img.shields.io/badge/Sponsor_on_GitHub-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/d9rectdesk)
 
 > **Status, November 2026:** the GitHub Sponsors profile is
 > submitted and in GitHub's approval queue. The tiers are set,
