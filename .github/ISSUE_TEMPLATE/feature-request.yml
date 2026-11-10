@@ -1,0 +1,31 @@
+name: Feature request
+description: Ask for something new, in your own words.
+title: "Feature request: "
+labels: ["feature request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what you would like, in plain words. There are no wrong answers here.
+  - type: textarea
+    id: what
+    attributes:
+      label: "What would you like it to do?"
+      description: "Describe the new thing you are asking for."
+      placeholder: "I would like it to..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "What problem would that solve for you?"
+      description: "Tell us what is hard, slow, or missing today."
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: "Anything else we should know?"
+      description: "Any extra detail that would help. You can leave this blank."
+    validations:
+      required: false
