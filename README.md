@@ -172,6 +172,14 @@ this code.
   waiting job on the book was converted in place.
 ---
 
+## Request a feature
+
+Have an idea for something new? Open the feature request form and say it in your own words: what you would like, and what it would help with. Every request goes on the list and gets read.
+
+[Request a feature](https://github.com/d9rectdesk/d9rectdesk/issues/new/choose)
+
+---
+
 ## Sponsor
 
 ![Sponsor](https://img.shields.io/badge/Sponsor-Fund_The_Programming-ea4aaa?labelColor=102331)
