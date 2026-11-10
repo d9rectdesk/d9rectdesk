@@ -16,15 +16,14 @@ and built by me.
 > **The short version.** I build **Ra** — a crew of AI agents
 > that lives on my own computer, writes and runs its own
 > programs, and does its work with no cloud in the loop. It is
-> one chain end to end: **Ra.APK** in my pocket,
-> **Ra** on the machine at home, **Ra.EXE** on my
-> desktop. **Ra independence: 47% — 47 of 100 hard steps
-> proven, the rest in open work.** **Problems found and
-> fixed: 47.** Sponsorship funds the programming — the tiers
+> two places: **Ra.APK** on my phone, and **Ra.EXE**
+> on my laptop. **Ra independence: 56% — 56 of 100
+> hard steps proven, the rest in open work.**
+> **Problems found and fixed: 58.** Sponsorship funds the programming — the tiers
 > are under [Sponsor](#sponsor), below.
 
 *The fix count is exact, from GitHub's own totals on
-November 9, 2026: 26 issues closed as completed plus 21 pull
+November 10, 2026: 36 issues closed as completed plus 22 pull
 requests merged across this account — every one a fault
 found, a fix shipped through review, or a work item closed
 out. Nothing estimated, nothing rounded. Behind it stands a
@@ -41,7 +40,7 @@ software, across my whole working life.
 
 Today I work as a designer and builder of AI systems. The
 estate described here — the crew, its laws, its memory, its
-tools, its phone and desktop companions — is my design and my
+tools, its phone and laptop companions — is my design and my
 code, maintained by one person to a hard standard: every
 change passes a review gate before it ships, every claim is
 proven by an instrument reading, and nothing is called done
@@ -108,20 +107,18 @@ seat works.
 
 ---
 
-## One chain: phone, home, desktop
+## One chain: phone and laptop
 
 - **Ra.APK** is the crew in my pocket. The app runs
   its own model on the phone, works mostly offline, and when
-  the machine at home is in reach it hands the heavy work to
-  Ra and brings the results back.
-- **Ra** is the middle of the chain and does the heavy work:
-  the crew, the models, the tools, the memory.
-- **Ra.EXE** is the same system on my desktop: talk
-  to the crew, watch the work as it happens, and run the
-  machine — the full reach of the home system, from the
-  chair.
+  my laptop is in reach it hands the heavy work to Ra.EXE
+  and brings the results back.
+- **Ra.EXE** is Ra on my laptop: the crew, the models,
+  the tools, the memory — the heavy work happens there. I
+  talk to the crew, watch the work as it happens, and run
+  the machine from the same window.
 
-One design, three ends, and the middle never leaves my own
+One system, two places, and neither end ever leaves my own
 hardware.
 
 *One more build stays under wraps: a science application, in
@@ -184,7 +181,7 @@ Have an idea for something new? Open the feature request form and say it in your
 > and sponsorship opens the moment it is approved.
 
 Sponsorship funds the programming itself: development time on
-Ra, its tool fleet, and its phone and desktop companions —
+Ra, its tool fleet, and its phone and laptop companions —
 plus the test hardware that keeps every release verified
 before it ships. It is support for the work; it buys no
 service and promises no product.
