@@ -154,24 +154,6 @@ toolbox of single-purpose tools, each doing one job.
 
 ---
 
-## Found and fixed
-
-The full register stays in my working records - 89 faults
-logged and ridden until closed. This page shows the one that
-best proves the method: the most complex problem I have met,
-with the simplest solution, and one that could only happen in
-this code.
-
-- **The bookkeeper's spelling.** The queue's bookkeeper wrote
-  job records in a spelling the rest of the crew could not
-  read, so waiting work never called a model up - jobs sat
-  filed, models sat asleep, and nothing anywhere reported an
-  error. The diagnosis took the whole chain apart. The fix
-  was one spelling: the bookkeeper now writes the spelling
-  everyone reads, reads both spellings itself, and every
-  waiting job on the book was converted in place.
----
-
 ## Request a feature
 
 Have an idea for something new? Open the feature request form and say it in your own words: what you would like, and what it would help with. Every request goes on the list and gets read.
