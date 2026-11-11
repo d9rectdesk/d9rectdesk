@@ -123,26 +123,26 @@ running local models, working as a crew.
   He plans the work, hands it to the right seat, and checks
   every result himself before it counts.
 - ![Sarah - Programmer](https://img.shields.io/badge/Sarah-Programmer-FFEA00?labelColor=102331) ![Qwen2.5-Coder-14B](https://img.shields.io/badge/Qwen2.5--Coder--14B-FFEA00?labelColor=102331)
-  **Sarah.** The programmer. Model: Qwen2.5-Coder-14B (Q4_K_M). Size: about 9.0 GB in memory (16K context).
+  **Sarah.** The programmer. Model: Qwen2.5-Coder-14B. Size: 9.0 GB in memory.
   She writes the final code the crew ships, and signs it —
   her keyed signature rides on her work, so anything she has
   sealed is provably hers and untouched.
 - ![Ethan - Hacker](https://img.shields.io/badge/Ethan-Hacker-00E5FF?labelColor=102331) ![Qwen2.5-Coder-14B](https://img.shields.io/badge/Qwen2.5--Coder--14B-00E5FF?labelColor=102331)
-  **Ethan.** The hacker. Model: Qwen2.5-Coder-14B (Q4_K_M). Size: about 9.0 GB in memory (16K context).
+  **Ethan.** The hacker. Model: Qwen2.5-Coder-14B. Size: 9.0 GB in memory.
   He breaks things on purpose, before the world gets the
   chance — if he says a weakness is real, he has already
   proved it, and drafted the first fix.
 - ![Kevin - Operator](https://img.shields.io/badge/Kevin-Operator-76FF03?labelColor=102331) ![Huihui Qwen3-4B-Instruct-2507](https://img.shields.io/badge/Huihui_Qwen3--4B--Instruct--2507-76FF03?labelColor=102331)
-  **Kevin.** The operator. Model: Huihui Qwen3-4B-Instruct-2507 (Q4_K_M). Size: about 2.5 GB in memory (32K context).
+  **Kevin.** The operator. Model: Huihui Qwen3-4B-Instruct-2507. Size: 2.5 GB in memory.
   He watches every program on the machine, restarts what
   falls, and holds the blueprint the whole estate can be
   rebuilt from.
 - ![Maya - Receptionist](https://img.shields.io/badge/Maya-Receptionist-FF9F1C?labelColor=102331) ![Huihui Qwen3-4B-Instruct-2507](https://img.shields.io/badge/Huihui_Qwen3--4B--Instruct--2507-FF9F1C?labelColor=102331)
-  **Maya.** The receptionist. Model: Huihui Qwen3-4B-Instruct-2507 (Q4_K_M). Size: about 2.5 GB in memory (32K context).
+  **Maya.** The receptionist. Model: Huihui Qwen3-4B-Instruct-2507. Size: 2.5 GB in memory.
   The media lead. Voice, pictures, and video are hers —
   every rendering runs under her hand.
 - ![Iris - Observer](https://img.shields.io/badge/Iris-Observer-C77DFF?labelColor=102331) ![Qwen2.5-VL-7B-Instruct](https://img.shields.io/badge/Qwen2.5--VL--7B--Instruct-C77DFF?labelColor=102331)
-  **Iris.** The observer. Model: Qwen2.5-VL-7B-Instruct. Size: 4.68 GB plus 0.85 GB projector file in memory (context not yet proven).
+  **Iris.** The observer. Model: Qwen2.5-VL-7B-Instruct. Size: 4.68 GB plus 0.85 GB projector file in memory.
   She watches the screen through a vision model and reports
   exactly what she sees — if she did not see it, she says so.
 
