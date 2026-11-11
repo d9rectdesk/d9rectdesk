@@ -118,32 +118,32 @@ This page stays pointed at the programming, because that is what sponsorship fun
 Ra is my AI system: six AI people on one local machine,
 running local models, working as a crew.
 
-- ![Duke - Manager](https://img.shields.io/badge/Duke-Manager-FF2A2A?labelColor=102331)
+- ![Duke - Manager](https://img.shields.io/badge/Duke-Manager-FF2A2A?labelColor=102331) ![Muse Wonder](https://img.shields.io/badge/Muse_Wonder-FF2A2A?labelColor=102331)
   **Duke.** The manager. He plans the work, hands it to the
   right seat, and checks every result himself before it
   counts.
   model: Muse Wonder, size not published 350,000 tokens
-- ![Sarah - Programmer](https://img.shields.io/badge/Sarah-Programmer-FFEA00?labelColor=102331)
+- ![Sarah - Programmer](https://img.shields.io/badge/Sarah-Programmer-FFEA00?labelColor=102331) ![Qwen2.5-Coder-14B](https://img.shields.io/badge/Qwen2.5--Coder--14B-FFEA00?labelColor=102331)
   **Sarah.** The programmer. She writes the final code the
   crew ships, and signs it — her keyed signature rides on her
   work, so anything she has sealed is provably hers and
   untouched.
   model: Qwen2.5-Coder-14B (Q4_K_M), about 9.0 GB 16K
-- ![Ethan - Hacker](https://img.shields.io/badge/Ethan-Hacker-00E5FF?labelColor=102331)
+- ![Ethan - Hacker](https://img.shields.io/badge/Ethan-Hacker-00E5FF?labelColor=102331) ![Qwen2.5-Coder-14B](https://img.shields.io/badge/Qwen2.5--Coder--14B-00E5FF?labelColor=102331)
   **Ethan.** The hacker. He breaks things on purpose, before
   the world gets the chance — if he says a weakness is real,
   he has already proved it, and drafted the first fix.
   model: Qwen2.5-Coder-14B (Q4_K_M), about 9.0 GB 16K
-- ![Kevin - Operator](https://img.shields.io/badge/Kevin-Operator-76FF03?labelColor=102331)
+- ![Kevin - Operator](https://img.shields.io/badge/Kevin-Operator-76FF03?labelColor=102331) ![Huihui Qwen3-4B-Instruct-2507](https://img.shields.io/badge/Huihui_Qwen3--4B--Instruct--2507-76FF03?labelColor=102331)
   **Kevin.** The operator. He watches every program on the
   machine, restarts what falls, and holds the blueprint the
   whole estate can be rebuilt from.
   model: Huihui Qwen3-4B-Instruct-2507 (Q4_K_M), about 2.5 GB 32K
-- ![Maya - Receptionist](https://img.shields.io/badge/Maya-Receptionist-FF9F1C?labelColor=102331)
+- ![Maya - Receptionist](https://img.shields.io/badge/Maya-Receptionist-FF9F1C?labelColor=102331) ![Huihui Qwen3-4B-Instruct-2507](https://img.shields.io/badge/Huihui_Qwen3--4B--Instruct--2507-FF9F1C?labelColor=102331)
   **Maya.** The receptionist and media lead. Voice, pictures,
   and video are hers — every rendering runs under her hand.
   model: Huihui Qwen3-4B-Instruct-2507 (Q4_K_M), about 2.5 GB 32K
-- ![Iris - Observer](https://img.shields.io/badge/Iris-Observer-C77DFF?labelColor=102331)
+- ![Iris - Observer](https://img.shields.io/badge/Iris-Observer-C77DFF?labelColor=102331) ![Qwen2.5-VL-7B-Instruct](https://img.shields.io/badge/Qwen2.5--VL--7B--Instruct-C77DFF?labelColor=102331)
   **Iris.** The observer. She watches the screen through a
   vision model and reports exactly what she sees — if she did
   not see it, she says so.
