@@ -1,8 +1,8 @@
 {
  "org": "DirectDesk",
  "tagline": "One programmer, an AI crew of his own making, and the tools they build together",
- "independence_pct": null,
- "independence_label": "In active development",
+ "independence_pct": 58,
+ "independence_label": "58 of 100 steps proven",
  "step": "The independence work",
  "step_name": "In progress",
  "website": "directdesk.net",
@@ -14,15 +14,21 @@
    "pct": null
   },
   {
-   "name": "Duke - Android companion",
+   "name": "Ra - Android companion",
    "blurb": "The crew's phone companion: talk to the team from anywhere.",
-   "status": "Released and verified",
+   "status": "New version in build",
    "pct": null
   },
   {
    "name": "DirectDesk Tools",
    "blurb": "A fleet of single-purpose tools, built and maintained by the crew.",
    "status": "Tool layer live",
+   "pct": null
+  },
+  {
+   "name": "The whole estate",
+   "blurb": "160 repositories, public and private - 9,355 saves on my own projects.",
+   "status": "Counted Nov 10, 2026",
    "pct": null
   }
  ],
