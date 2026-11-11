@@ -24,7 +24,7 @@ and built by me.
 > two places: **Ra.APK** on my phone, and **Ra.EXE**
 > on my laptop. **Ra independence: 58% — 58 of 100
 > hard steps proven, the rest in open work.**
-> **Problems found and fixed: 71.** Sponsorship funds the programming — the tiers
+> **Problems found and fixed: 76.** Sponsorship funds the programming — the tiers
 > are under [Sponsor](#sponsor), below.
 >
 > Behind this page stands the whole estate, counted on
@@ -34,7 +34,7 @@ and built by me.
 > [The whole estate](#the-whole-estate), below.
 
 *The fix count is exact, from GitHub's own totals on
-November 10, 2026: 49 issues closed as completed plus 22 pull
+November 11, 2026: 54 issues closed as completed plus 22 pull
 requests merged across this account — every one a fault
 found, a fix shipped through review, or a work item closed
 out. Nothing estimated, nothing rounded. Behind it stands a
@@ -186,11 +186,11 @@ because the work is the boast, public or not:
   **160 repositories** — 3 public, 157 private.
 - ![Saves](https://img.shields.io/badge/Saves-9355-2E9E4F?labelColor=102331)
   **9,355 saves** — commits across my own 158 projects.
-- ![Issues closed](https://img.shields.io/badge/Issues_Closed-49-FF9F1C?labelColor=102331)
-  **49 issues closed**, and
+- ![Issues closed](https://img.shields.io/badge/Issues_Closed-54-FF9F1C?labelColor=102331)
+  **54 issues closed**, and
   ![Pull requests merged](https://img.shields.io/badge/Pull_Requests_Merged-22-C77DFF?labelColor=102331)
   **22 pull requests merged** — the found-and-fixed record.
-- **150 issues stand open** in active work.
+- **168 issues stand open** in active work.
 - Counted together with the two public forks below, the
   account holds 21,973 commits; the forks carry their
   upstream projects' histories, so my own number is the
